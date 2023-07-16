@@ -1,0 +1,38 @@
+.Home-container {
+  background-color: #000;
+  height: 35rem;
+}
+.Home-sec-1-container {
+  display: flex;
+  justify-content: space-around;
+  color: #fff;
+  padding-top: 3rem;
+}
+.Home-sec-1-left-col {
+  padding-top: 4.8rem;
+}
+.Home-sec-1-left-col-text-1 {
+  font-size: 2rem;
+  margin-bottom: 0.3rem;
+  color: #f0ecd9;
+}
+.Home-sec-1-left-col-text-2 {
+  font-size: 3rem;
+  color: #dcca87;
+  margin-top: 0.195rem;
+}
+.Home-sec-1-left-col-text-3 {
+  font-size: 1.04rem;
+  margin-top: 1.5rem;
+  font-family: Open Sans, sans-serif;
+  color: #f0ecd9;
+}
+.Home-sec-1-left-col-text-4 {
+  width: 7.5rem;
+  font-size: 1.08rem;
+  margin-top: 4rem;
+  color: #dd5882;
+  padding-bottom: 0.6rem;
+  border-bottom: 1px solid;
+  cursor: pointer;
+}
