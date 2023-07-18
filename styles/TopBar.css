@@ -1,0 +1,28 @@
+.Topbar-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  /* background: #9e297f; */
+  background: #fff;
+  color: #1c1c1c;
+  padding-top: 0.36rem;
+  padding-bottom: 0.36rem;
+  font-size: 0.74rem;
+  border-bottom: 1px solid #393939;
+}
+.Topbar-address-container {
+  display: flex;
+  column-gap: 0.3rem;
+}
+.Topbar-hours-container {
+  display: flex;
+  column-gap: 1rem;
+}
+.Topbar-number-container {
+  display: flex;
+  column-gap: 0.3rem;
+}
+.Topbar-socials-container img {
+  margin-left: 0.43rem;
+  cursor: pointer;
+}
