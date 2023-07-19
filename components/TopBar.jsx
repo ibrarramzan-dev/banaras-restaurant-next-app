@@ -26,10 +26,10 @@ function TopBar() {
         <p>
           <b>Dinner Hours</b>
         </p>
-        <p>
+        <div>
           <p>Mon – Thu: 11:00 AM – 2:30 PM</p>
           <p>Fri – Sun: 11:00 AM – 3:00 PM</p>
-        </p>
+        </div>
       </div>
       <div className="Topbar-number-container">
         <Image src={TelephoneIcon} alt="Location" width={16} />
