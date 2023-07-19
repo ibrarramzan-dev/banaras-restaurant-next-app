@@ -1,0 +1,11 @@
+.StandardBox-container {
+  margin-top: 2rem;
+}
+.StandardBox-heading {
+  font-size: 2rem;
+}
+.StandardBox-text {
+  font-size: 1.198rem;
+  margin-top: 2rem;
+  color: rgb(136, 136, 136);
+}

@@ -30,7 +30,7 @@ function Story() {
           <div>
             <Image src={Dash} alt="Dash" />
           </div>
-          <p>
+          <p className="Story-left-col-text-3">
             It is our mission to serve delicious authentic Indian food at
             reasonable prices in a clean, comfortable, and welcoming
             environment. We also aim to consistently provide our guests with

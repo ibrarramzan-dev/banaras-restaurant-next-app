@@ -1,0 +1,25 @@
+.Founded-container {
+  height: 38.5rem;
+  background-image: url("../public/assets/images/Founded-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 0px 4px 4px 0px #00000040, inset 0 0 0 1000px rgba(0, 0, 0, 0.75);
+  color: #fff;
+}
+.Founded-heading {
+  font-size: 4.25rem;
+  text-align: center;
+  padding-top: 12rem;
+}
+.Founded-text-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.Founded-text {
+  width: 32rem;
+  font-size: 2rem;
+  font-style: italic;
+  text-align: center;
+  line-height: 3.4rem;
+  margin-top: 1.6rem;
+}

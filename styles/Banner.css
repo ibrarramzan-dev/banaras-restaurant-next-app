@@ -17,7 +17,6 @@
   margin-top: 3.78rem;
   margin-bottom: 0.3rem;
   color: #000;
-  /* background-color: #f0ecd9; */
   color: #fff;
   border-bottom: 2px solid #fff;
 }
@@ -37,8 +36,6 @@
   padding: 0.7rem;
   border-radius: 8px;
   opacity: 0.9;
-  /* -webkit-text-stroke: 1px #f8f8f8;
-  text-shadow: 10px 5px 4px #23430c; */
 }
 .Banner-text-4 {
   width: 10.5rem;

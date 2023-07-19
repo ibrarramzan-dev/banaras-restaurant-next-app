@@ -1,5 +1,7 @@
 import Banner from "@/components/Banner";
 import Story from "@/components/Story";
+import Standards from "@/components/Standards";
+import Founded from "@/components/Founded";
 import styles from "@/styles/Page.css";
 
 function Home() {
@@ -7,6 +9,8 @@ function Home() {
     <div className="Home-container">
       <Banner />
       <Story />
+      <Standards />
+      <Founded />
     </div>
   );
 }

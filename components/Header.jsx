@@ -17,7 +17,9 @@ function Header() {
       <TopBar />
       <div className="Header-container">
         <div className="Header-logo">
-          <Image src={Logo} alt="Banaras xpress" width={204} />
+          <Link href="/">
+            <Image src={Logo} alt="Banaras xpress" width={204} />
+          </Link>
         </div>
 
         <div className="Header-nav">

@@ -29,10 +29,8 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  /* border: 0.5px solid #000; */
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   color: #9e297f;
-  /* font-weight: 100; */
   margin-top: 0.8rem;
   cursor: pointer;
   font-size: 0.96rem;

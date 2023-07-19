@@ -1,0 +1,17 @@
+.Standards-container {
+  height: 30rem;
+  background: #fff;
+  padding-top: 1rem;
+}
+.Standards-container h3 {
+  font-size: 3.5rem;
+  padding-top: 0.67rem;
+  padding-left: 1.25rem;
+}
+.Standards-content-wrapper {
+  display: flex;
+  column-gap: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  line-height: 2.3rem;
+}
