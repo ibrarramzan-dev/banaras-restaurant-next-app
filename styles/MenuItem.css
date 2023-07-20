@@ -1,0 +1,36 @@
+.MenuItem-container {
+  position: relative;
+  width: fit-content;
+}
+.MenuItem-text-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.MenuItem-text-wrapper-1 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.MenuItem-text-wrapper-2 {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-top: 0.65rem;
+  margin-bottom: 1rem;
+  color: rgb(136, 136, 136);
+}
+.MenuItem-chef-special-wrapper {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  width: 4.5rem;
+  height: 4.5rem;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.6);
+}
+.MenuItem-chef-special-wrapper p {
+  font-size: 1.1rem;
+  margin-top: 0.9rem;
+  margin-left: 0.72rem;
+  font-style: italic;
+  line-height: 1.25rem;
+}
