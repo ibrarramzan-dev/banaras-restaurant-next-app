@@ -1,0 +1,24 @@
+.Testimonials-container {
+  height: 57.5rem;
+  background: url("../public/assets/images/Testimonials-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  box-shadow: 0px 4px 4px 0px #00000040, inset 0 0 0 1000px rgba(0, 0, 0, 0.75);
+  color: #fff;
+  font-size: 4.2rem;
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+}
+.Testimonials-heading-1 {
+  text-align: center;
+}
+.Testimonials-heading-2 {
+  text-align: center;
+}
+.Testimonials-dash-wrapper {
+  text-align: center;
+}
+.Testimonials-wrapper {
+  display: flex;
+  justify-content: space-around;
+}

@@ -1,0 +1,21 @@
+.Testimonial-container {
+  width: 40.85rem;
+}
+.Testimonial-avatar-wrapper {
+  text-align: center;
+}
+.Testimonial-avatar-wrapper img {
+  border-radius: 50%;
+}
+.Testimonial-text {
+  font-size: 1.4rem;
+}
+.Testimonial-user-name {
+  font-size: 1.55rem;
+  margin-top: 1.15rem;
+}
+.Testimonial-posted-on-text {
+  font-size: 1rem;
+  font-style: italic;
+  margin-top: 0.425rem;
+}
