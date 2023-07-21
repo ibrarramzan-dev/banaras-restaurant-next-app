@@ -5,6 +5,7 @@ import Founded from "@/components/Founded";
 import Menu from "@/components/Menu";
 import Section from "@/components/Section";
 import Testimonials from "@/components/Testimonials";
+import Gallery from "@/components/Gallery";
 import styles from "@/styles/Page.css";
 
 function Home() {
@@ -17,6 +18,7 @@ function Home() {
       <Menu />
       <Section />
       <Testimonials />
+      <Gallery />
     </div>
   );
 }
