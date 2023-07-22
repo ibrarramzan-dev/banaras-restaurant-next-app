@@ -1,49 +1,35 @@
-.Header-container {
+.Footer-container {
   display: flex;
   justify-content: space-between;
   background: #fff;
-  padding: 0.3rem 1.82rem 0.7rem 1.5rem;
+  padding: 1.8rem 0.7rem 2rem 1.5rem;
 }
-.Header-nav ul {
+.Footer-nav ul {
   list-style-type: none;
   display: flex;
   justify-content: space-between;
   font-size: 1.4rem;
-  margin-top: 0.84rem;
-  margin-left: -0.14rem;
+  margin-top: 0.175rem;
+  margin-left: 0.8rem;
   color: rgba(19, 19, 19, 0.55);
   padding: 16px;
   font-size: 16px;
 }
-.Header-nav ul li {
+.Footer-nav ul li {
   padding-bottom: 0.55rem;
   font-weight: bold;
 }
-.Header-nav ul li:hover {
-  border-bottom: 1px solid #393939;
+.Footer-nav ul li:hover {
   cursor: pointer;
 }
-.Header-book-table {
-  width: 8.5rem;
-  height: 3.25rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  color: #9e297f;
-  margin-top: 0.8rem;
+.Footer-socials-wrapper {
+  margin-top: 1.15rem;
+}
+.Footer-socials-wrapper img {
+  margin-left: 0.75rem;
   cursor: pointer;
-  font-size: 0.96rem;
-  font-weight: 600;
 }
-.Header-book-table:hover {
-  letter-spacing: 0.027rem;
-}
-.Header-book-table p {
-  margin-top: -0.1rem;
-  letter-spacing: 0.1rem;
-}
-.Header-nav-item {
+.Footer-nav-item {
   margin-left: 2.12rem;
 }
 
@@ -73,6 +59,7 @@
 /* Dropdown Content (Hidden by Default) */
 .avatar-dropdown-content {
   display: none;
+  bottom: 2rem;
   position: absolute;
   background-color: #f1f1f1;
   min-width: 160px;

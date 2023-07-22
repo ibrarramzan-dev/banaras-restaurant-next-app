@@ -76,6 +76,7 @@ function Gallery() {
               src="https://livedemo00.template-help.com/wt_prod-15612/images/image-original-8-1200x800.jpg"
               alt="Gallery Image 8"
               className="Gallery-img"
+              title="Click to view"
             />
           </PhotoView>
         </div>

@@ -6,11 +6,10 @@ import Menu from "@/components/Menu";
 import Section from "@/components/Section";
 import Testimonials from "@/components/Testimonials";
 import Gallery from "@/components/Gallery";
-import styles from "@/styles/Page.css";
 
 function Home() {
   return (
-    <div className="Home-container">
+    <div>
       <Banner />
       <Story />
       <Standards />

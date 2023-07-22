@@ -1,0 +1,21 @@
+.FooterBottomBar-container {
+  display: flex;
+  background: #fff;
+  color: rgb(136, 136, 136);
+  padding: 1.4rem 0.3rem 1.55rem 0;
+  border-top: 1px solid rgb(236, 236, 238);
+}
+.FooterBottomBar-brand-and-year {
+  flex-basis: 40%;
+  padding-left: 1.7rem;
+  margin-top: 0.367rem;
+}
+.FooterBottomBar-address-phone-email-col {
+  height: 2rem;
+  flex-basis: 60%;
+  display: flex;
+  justify-content: space-between;
+}
+.FooterBottomBar-address-phone-email-col p {
+  margin-top: 0.3rem;
+}
