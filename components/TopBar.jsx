@@ -32,7 +32,7 @@ function TopBar() {
         </div>
       </div>
       <div className="Topbar-number-container">
-        <Image src={TelephoneIcon} alt="Location" width={16} />
+        <Image src={TelephoneIcon} alt="Telephone" width={16} />
         <p className="Topbar-number">(703) 429-1994</p>
       </div>
       <div className="Topbar-socials-container">

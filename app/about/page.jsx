@@ -1,5 +1,6 @@
 import Image from "next/image";
 import { EB_Garamond } from "next/font/google";
+import cn from "classnames";
 import Standards from "@/components/Standards";
 import Founded from "@/components/Founded";
 import Dash from "@/public/assets/images/dash.png";
@@ -12,12 +13,13 @@ const EB_Garamond_Font = EB_Garamond({
 
 function About() {
   return (
-    <section className={EB_Garamond_Font.className}>
-      <div className="About-container">
+    <div>
+      <div className={cn(EB_Garamond_Font.className, "About-container")}>
         <p className="page-heading">About Us</p>
         <div>
           <Image src={Dash} alt="Dash" />
         </div>
+
         <p className="About-text">
           Banaras Xpress introduces a fusion of culinary finesse with gracious
           service. With a delightful array of aromatic dishes, slow cooked with
@@ -44,7 +46,7 @@ function About() {
 
       <Standards />
       <Founded />
-    </section>
+    </div>
   );
 }
 
