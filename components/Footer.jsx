@@ -25,7 +25,9 @@ function Footer() {
         </div>
 
         <div className="Footer-nav">
-          <ul className={EB_Garamond_Font.className}>
+          <p className="Footer-heading">Links</p>
+
+          <ul>
             <Link href="/">
               <li>HOME</li>
             </Link>
@@ -35,18 +37,20 @@ function Footer() {
             </Link>
 
             <li className="Footer-nav-item">
-              <div className="avatar-dropdown">
-                <span
-                  className="avatar-dropdown-btn"
-                  style={{ fontWeight: "bold" }}
-                >
-                  MENU{" "}
-                  <span style={{ fontSize: "0.72rem", height: "0.1rem" }}>
+              <div className="Footer-nav-item-dropdown">
+                <span className="Footer-nav-item-dropdown-btn">
+                  MENU
+                  <span
+                    style={{
+                      fontSize: "0.72rem",
+                      height: "0.1rem",
+                    }}
+                  >
                     ^
                   </span>
                 </span>
 
-                <div className="avatar-dropdown-content">
+                <div className="Footer-nav-item-dropdown-content">
                   <Link href="/menu/appetizers">Appetizers</Link>
                   <Link href="/menu/foods">Foods</Link>
                   <Link href="/menu/drinks">Drinks</Link>
@@ -58,6 +62,22 @@ function Footer() {
               <li className="Footer-nav-item">CONTACTS</li>
             </Link>
           </ul>
+        </div>
+
+        <div className="Footer-business-hours-wrapper">
+          <p className="Footer-heading">Lunch Hours</p>
+          <div className="Footer-business-hours-times-wrapper">
+            <p>Mon – Thu: 11:00 AM – 2:30 PM</p>
+            <p>Fri – Sun: 11:00 AM – 3:00 PM</p>
+          </div>
+        </div>
+
+        <div className="Footer-business-hours-wrapper">
+          <p className="Footer-heading">Dinner Hours</p>
+          <div className="Footer-business-hours-times-wrapper">
+            <p>Mon – Thu: 11:00 AM – 2:30 PM</p>
+            <p>Fri – Sun: 11:00 AM – 3:00 PM</p>
+          </div>
         </div>
 
         <div className="Footer-socials-wrapper">
