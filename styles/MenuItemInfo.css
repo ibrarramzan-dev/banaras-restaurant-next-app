@@ -1,0 +1,15 @@
+.MenuItemInfo-text-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.MenuItemInfo-text-wrapper-1 {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+}
+.MenuItemInfo-text-wrapper-2 {
+  font-size: 1.1rem;
+  font-style: italic;
+  margin-top: 0.65rem;
+  margin-bottom: 1rem;
+  color: rgb(136, 136, 136);
+}

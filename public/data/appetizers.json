@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Paneer 65",
+    "price": 8,
+    "desc": "cottage cheese cubes sauteed with mustard seeds & curry leaves and tangy sauce",
+    "weight": 0,
+    "chefSpecial": false
+  },
+  {
+    "id": 2,
+    "name": "Gobi 65",
+    "price": 8,
+    "desc": "Fried Cauliflower Florets sauteed with mustard seeds & curry leaves and tangy sauce",
+    "weight": 0,
+    "chefSpecial": false
+  },
+  {
+    "id": 3,
+    "name": "Chicken 65",
+    "price": 8,
+    "desc": "Fried Chicken cubes sauteed with mustard seeds & curry leaves and tangy sauce",
+    "weight": 0,
+    "chefSpecial": false
+  }
+]

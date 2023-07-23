@@ -30,3 +30,19 @@ a {
   font-size: 3.1rem;
   color: rgb(80, 80, 80);
 }
+.page-path-links {
+  display: flex;
+  justify-content: center;
+  font-size: 1rem;
+  margin-top: 0.65rem;
+}
+.page-path-links p {
+  margin-right: 1rem;
+  color: #373737;
+}
+.page-path-links hr {
+  margin-right: 1rem;
+}
+.page-path-current-link {
+  color: #5b5b5b !important;
+}

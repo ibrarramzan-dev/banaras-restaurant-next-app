@@ -1,0 +1,8 @@
+.Appetizers-container {
+  text-align: center;
+}
+.Appetizers-bg {
+  background-image: url(../public/assets/images/Appetizers-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

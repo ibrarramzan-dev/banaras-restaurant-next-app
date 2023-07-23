@@ -1,0 +1,11 @@
+.MenuListItem-container {
+  width: 48%;
+}
+.MenuListItem-container .MenuItemInfo-container {
+  padding: 0 0 1.3rem 0;
+  border-bottom: 1px solid #c6c6c6;
+  margin-left: 2rem;
+}
+.MenuListItem-container:nth-child(even) {
+  margin-left: 1.4rem;
+}
