@@ -6,7 +6,6 @@
       "variants": "",
       "price": 8,
       "desc": "cottage cheese cubes sauteed with mustard seeds & curry leaves and tangy sauce",
-      "weight": 0,
       "chefSpecial": false
     },
     {
@@ -15,7 +14,6 @@
       "variants": "",
       "price": 8,
       "desc": "Fried Cauliflower Florets sauteed with mustard seeds & curry leaves and tangy sauce",
-      "weight": 0,
       "chefSpecial": false
     },
     {
@@ -24,7 +22,6 @@
       "variants": "",
       "price": 8,
       "desc": "Fried Chicken cubes sauteed with mustard seeds & curry leaves and tangy sauce",
-      "weight": 0,
       "chefSpecial": false
     }
   ]
