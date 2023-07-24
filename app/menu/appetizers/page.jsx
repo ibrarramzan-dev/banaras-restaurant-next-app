@@ -1,6 +1,5 @@
 import MenuPageHeader from "@/components/MenuPageHeader";
 import MenuList from "@/components/MenuList";
-import AppetizersImage from "@/public/assets/images/Appetizers-bg.jpg";
 import "@/styles/appetizers.css";
 
 function Appetizers() {

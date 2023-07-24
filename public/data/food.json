@@ -1,0 +1,654 @@
+{
+  "Indian Fusion": [
+    {
+      "id": 1,
+      "name": "Masala Nacho's",
+      "variants": "Chicken Tikka | Paneer Tikka | Soya",
+      "price": "10 | 10 | 10",
+      "desc": "Nacho chips topped with tomato, cheese, beans, sour cream and Indian sauce",
+      "weight": 0,
+      "chefSpecial": false
+    }
+  ],
+  "Pizza": [
+    {
+      "id": 2,
+      "name": "Tandoori Paneer",
+      "price": "12",
+      "desc": "",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 3,
+      "name": "Paneet Tikka",
+      "price": "12",
+      "desc": "",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 4,
+      "name": "Chicken Tikka",
+      "price": "12",
+      "desc": "",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 5,
+      "name": "Tandoori Chicken",
+      "price": "12",
+      "desc": "",
+      "weight": 0,
+      "chefSpecial": false
+    }
+  ],
+  "TACOS": [
+    {
+      "id": 6,
+      "name": "Chicken",
+      "price": "12",
+      "desc": "",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 7,
+      "name": "Paneer",
+      "price": "12",
+      "desc": "",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 8,
+      "name": "Soya",
+      "price": "12",
+      "desc": "",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 9,
+      "name": "Shrimp",
+      "price": "12",
+      "desc": "",
+      "weight": 0,
+      "chefSpecial": false
+    }
+  ],
+  "Momos": [
+    {
+      "id": 10,
+      "name": "Chicken",
+      "price": "12",
+      "desc": "",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 11,
+      "name": "Paneer",
+      "price": "12",
+      "desc": "",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 12,
+      "name": "Veg",
+      "price": "12",
+      "desc": "",
+      "weight": 0,
+      "chefSpecial": false
+    }
+  ],
+  "Wings": [
+    {
+      "id": 13,
+      "name": "Traditional Wings",
+      "variants": "6 | 12 | 24",
+      "price": "8 | 14 | 25",
+      "desc": "Fresh Chicken wings served with fusion sauce. ~ Butter | Tikka | Malai | Tandoori | Thai | Garlic | Buffalo",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 14,
+      "name": "Boneless Wings",
+      "variants": "8 | 16 | 32",
+      "price": "8 | 14 | 25",
+      "desc": "Fresh Chicken wings served with fusion sauce. ~ Butter | Tikka | Malai | Tandoori | Thai | Garlic | Buffalo",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 15,
+      "name": "Tandoori Wings",
+      "variants": "6 | 12 | 24",
+      "price": "8 | 14 | 25",
+      "desc": "Fresh Chicken wings served with fusion sauce. ~ Butter | Tikka | Malai | Tandoori | Thai | Garlic | Buffalo",
+      "weight": 0,
+      "chefSpecial": false
+    }
+  ],
+  "Burgers": [
+    {
+      "id": 16,
+      "name": "Aloo Tikki",
+      "price": "7",
+      "desc": "Golden crisp potato and peas patties, layered on a toasted bun and topped with cilantro chutney, cheese, onion, and tomato",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 17,
+      "name": "Paneer Makhani",
+      "price": "8",
+      "desc": "Crispy Paneer fillets with our house-made makhani sauce, lettuce, sour cream, fresh onions and tomato",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 18,
+      "name": "Chicken Tandoori grill",
+      "price": "8",
+      "desc": "Grilled chicken breast topped with our house-made tandoori sauce, lettuce, sour cream, fresh onions and tomato",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 19,
+      "name": "Peanut Masala",
+      "price": "7",
+      "desc": "Peanuts mixed with finely chopped Onions, tomato and green chilli",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 20,
+      "name": "Tikka Masala dip and chips",
+      "price": "8",
+      "desc": "House-made tikka sauce served with crispy buttery mini nans",
+      "weight": 0,
+      "chefSpecial": false
+    }
+  ],
+  "Street Chaat": [
+    {
+      "id": 21,
+      "name": "Meethe Aloo and avocado ki chaat",
+      "price": "10",
+      "desc": "Sweet Potato and avocado topped with onions, yogurt and homemade chutneys",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 22,
+      "name": "Samosa",
+      "price": "6",
+      "desc": "Stuffed Spice potato , peas pastry served with a side of chutneys",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 23,
+      "name": "Chole Bhature",
+      "price": "12",
+      "desc": "Punjab special, two deep fried puffy breads served with chickpeas",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 24,
+      "name": "Samosa chaat",
+      "price": "8",
+      "desc": "Stuffed Spice potato, peas pastry topped with chickpeas, yogurt, tamarind & mint chutney",
+      "weight": 0,
+      "chefSpecial": false
+    }
+  ],
+  "Chatora Juntion": [
+    {
+      "id": 25,
+      "name": "Dahi Bhalla",
+      "price": "8",
+      "desc": "Lentil balls topped with yogurt / tamarind / house made chutney",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 26,
+      "name": "Pani Puri",
+      "price": "8",
+      "desc": "Crispy wheat shells stuffed with potato, onions, chickpeas served with homemade tangy mint coriander water",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 27,
+      "name": "Delhi wali aloo tikki chaat",
+      "price": "10",
+      "desc": "Potato patties with cashew deep fried topped with chickpeas, yogurt, tamarind and mint chutney",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 28,
+      "name": "Papdi chaat",
+      "price": "10",
+      "desc": "chickpeas, potatoes, various chutneys, yogurt, papdi, yogurt, sev and is garnished with coriander",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 29,
+      "name": "Mumbai Bhel",
+      "price": "8",
+      "desc": "puffed rice mixed with chickpeas, yogurt, tamarind and mint chutney",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 30,
+      "name": "Baji Pav",
+      "price": "10",
+      "desc": "Mumbai famous baji from Mashed potatoes and vegetable, served with butter pav bread",
+      "weight": 0,
+      "chefSpecial": false
+    }
+  ],
+  "Indo-Chinese": [
+    {
+      "id": 31,
+      "name": "Hakka noodles",
+      "variants": "Veg | Egg | Chicken | Shrimp",
+      "price": "10 | 12 | 12 | 14",
+      "desc": "Noodles, wok-seared with vegetables, garlic, ginger, chillies , soy sauce & spices",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 32,
+      "name": "Veg Manchurian Dry / Gravy",
+      "price": "12",
+      "desc": "Minced Vegetables fritters cooked with garlic, ginger, chillies , soy sauce & spices",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 33,
+      "name": "Fried Rice",
+      "variants": "Veg | Egg | Chicken | Shrimp",
+      "price": "10 | 12 | 12 | 14",
+      "desc": "Rice stir-fried with vegetables, garlic, ginger, chillies , soy sauce & spices",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 34,
+      "name": "Schezwan Chicken / Shrimp",
+      "price": "12 | 14",
+      "desc": "Sauteed with minced garlic , onion & schezwan sauce , served with rice",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 35,
+      "name": "Paneer chilli",
+      "price": "8",
+      "desc": "Cottage cheese tossed with onions,peppers and chili sauce",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 36,
+      "name": "Chilli Gobi",
+      "price": "8",
+      "desc": "Fried Cauliflower Florets tossed with onions, peppers and chili sauce",
+      "weight": 0,
+      "chefSpecial": false
+    }
+  ],
+  "Parantha Gali": [
+    {
+      "id": 37,
+      "name": "Parantha Gali",
+      "price": "12",
+      "desc": "One piece of Multigrain paratha stuffed with choice of Aloo / mooli / gobhi / paneer / onion Served with dahi, makhan & achar",
+      "weight": 0,
+      "chefSpecial": false
+    }
+  ],
+  "Egg Corner": [
+    {
+      "id": 38,
+      "name": "Egg Bhurji",
+      "price": "11",
+      "desc": "Scrambled eggs cooked with spices, served with pav bread",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 39,
+      "name": "Egg curry",
+      "price": "12",
+      "desc": "Boiled egg cooked in a onion-tomato curry, served with rice",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 40,
+      "name": "Egg Ghotala",
+      "price": "11",
+      "desc": "Scrambled eggs and Mashed potatoes, vegetable, served with butter pav bread",
+      "weight": 0,
+      "chefSpecial": false
+    }
+  ],
+  "Tandoori Love": [
+    {
+      "id": 41,
+      "name": "Pakhtuni paneer tikka",
+      "price": "16",
+      "desc": "Cottage cheese marinated with cashew sauce",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 42,
+      "name": "Chicken tikka",
+      "price": "16",
+      "desc": "Chicken pieces marinated in tandoori masala sauce",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 43,
+      "name": "Achari paneer tikka",
+      "price": "16",
+      "desc": "Cottage cheese marinated with pickle sauce",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 44,
+      "name": "Afghani chicken tikka",
+      "price": "16",
+      "desc": "Chicken pieces marinated with cashew sauce",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 45,
+      "name": "Tandoori mushroom",
+      "price": "16",
+      "desc": "Mushroom marinated with coriander mint tandoori masala sauce",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 46,
+      "name": "Chicken seekh kabab",
+      "price": "16",
+      "desc": "Minced chicken and herbs",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 47,
+      "name": "Tandoori chicken",
+      "price": "16",
+      "desc": "Half tandoori chicken marinated in tandoori masala sauce",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 48,
+      "name": "Lamb seekh kabab",
+      "price": "16",
+      "desc": "Minced Lamb and herbs",
+      "weight": 0,
+      "chefSpecial": false
+    }
+  ],
+  "Biryani": [
+    {
+      "id": 49,
+      "name": "Veg.",
+      "price": "12",
+      "desc": "Aromatic Basmati Rice cooked with fragrant herbs",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 50,
+      "name": "Egg",
+      "price": "12",
+      "desc": "Aromatic Basmati Rice cooked with fragrant herbs",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 51,
+      "name": "Paneer",
+      "price": "12",
+      "desc": "Aromatic Basmati Rice cooked with fragrant herbs",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 52,
+      "name": "Chicken",
+      "price": "14",
+      "desc": "Aromatic Basmati Rice cooked with fragrant herbs",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 53,
+      "name": "Lamb",
+      "price": "16",
+      "desc": "Aromatic Basmati Rice cooked with fragrant herbs",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 54,
+      "name": "Shrimp",
+      "price": "18",
+      "desc": "Aromatic Basmati Rice cooked with fragrant herbs",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 55,
+      "name": "Goat",
+      "price": "20",
+      "desc": "Aromatic Basmati Rice cooked with fragrant herbs",
+      "weight": 0,
+      "chefSpecial": false
+    }
+  ],
+  "House Specials": [
+    {
+      "id": 56,
+      "name": "Matka chicken",
+      "price": "20",
+      "desc": "Chicken Dish from champaran Bihar cooked in home style",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 57,
+      "name": "Rajasthani jungli laal maas",
+      "price": "20",
+      "desc": "Baby goat cooked with onion-tomato and special chillies",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 58,
+      "name": "Butter chicken with bone",
+      "price": "20",
+      "desc": "Half tandoori chicken cooked in Delhi speciality buttery tomato sauce",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 59,
+      "name": "Sarso ka saag with makki roti",
+      "price": "14",
+      "desc": "Ground fresh mustard leaves cooked with spices",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 60,
+      "name": "Amritsari chicken",
+      "price": "20",
+      "desc": "Half tandoori chicken finished with our chef’s special sauce",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 61,
+      "name": "Kadi pakoda",
+      "price": "14",
+      "desc": "Yogurt based curry served with onion filters",
+      "weight": 0,
+      "chefSpecial": false
+    }
+  ],
+  "Veg Special": [
+    {
+      "id": 62,
+      "name": "Paneer lababdar",
+      "price": "14",
+      "desc": "Cottage cheese cubes mixed with lababdar sauce",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 63,
+      "name": "Palak paneer",
+      "price": "14",
+      "desc": "Cottage cheese cooked with spinach",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 64,
+      "name": "Khyberi kadai paneer",
+      "price": "14",
+      "desc": "Cottage cheese triangles mixed with onions , peppers in onion sauce",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 65,
+      "name": "Dal tadka",
+      "price": "12",
+      "desc": "Yellow lentils tempered with cumin seeds, ginger-garlic and onion",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 66,
+      "name": "Mattar paneer",
+      "price": "14",
+      "desc": "Cottage cheese with peas cooked in creamy onion tomato sauce",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 67,
+      "name": "Dhaba wali dal",
+      "price": "12",
+      "desc": "Mixed lentils tempered with cumin seeds, ginger-garlic and onion",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 68,
+      "name": "Panner bhurji",
+      "price": "14",
+      "desc": "Shredded cottage cheese with spiced onions and tomato",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 69,
+      "name": "Dal makhni Punjab special",
+      "price": "14",
+      "desc": "Black lentils and red kidney beans cooked overnight and finished with cream and butter",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 70,
+      "name": "Paneer butter masala",
+      "price": "14",
+      "desc": "Cottage Cheese cooked in creamy tomato sauce",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 71,
+      "name": "Amritsari chole",
+      "price": "12",
+      "desc": "Tangy chickpea in onion curry and spices",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 72,
+      "name": "Paneer tikka masala",
+      "price": "14",
+      "desc": "Cottage Cheese cooked in creamy onion tomato sauce",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 73,
+      "name": "Dum Aloo",
+      "price": "14",
+      "desc": "Baby potato cooked with onion tomato and jaggery",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 74,
+      "name": "Malai kofta",
+      "price": "14",
+      "desc": "Cottage cheese croquettes cooked in creamy cashew nut sauce",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 75,
+      "name": "Bhindi 2 pyaza",
+      "price": "12",
+      "desc": "Okra in onion tomato sauce",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 76,
+      "name": "Nawabi tarkari",
+      "price": "14",
+      "desc": "Cauliflower , carrot , potato and green peas cooked in creamy cashew nut sauce",
+      "weight": 0,
+      "chefSpecial": false
+    },
+    {
+      "id": 77,
+      "name": "Aloo gobi Amchoor wali",
+      "price": "12",
+      "desc": "Cauliflower and potato cooked with chopped onion tomato sauce",
+      "weight": 0,
+      "chefSpecial": false
+    }
+  ]
+}
