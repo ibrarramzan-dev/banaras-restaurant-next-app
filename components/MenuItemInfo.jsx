@@ -7,7 +7,7 @@ const EB_Garamond_Font = EB_Garamond({
   weight: "400",
 });
 
-function MenuItemInfo({ name, price, desc, weight }) {
+function MenuItemInfo({ name, variants, price, desc }) {
   return (
     <div className="MenuItemInfo-container">
       <div
@@ -17,7 +17,10 @@ function MenuItemInfo({ name, price, desc, weight }) {
           "MenuItemInfo-text-wrapper-1"
         )}
       >
-        <p>{name}</p>
+        <div>
+          <p>{name}</p>
+          <p className="MenuItemInfo-text-variants">{variants}</p>
+        </div>
         <p>${price}</p>
       </div>
 
@@ -29,7 +32,6 @@ function MenuItemInfo({ name, price, desc, weight }) {
         )}
       >
         <p>{desc}</p>
-        <p>{weight}g</p>
       </div>
     </div>
   );

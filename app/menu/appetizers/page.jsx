@@ -1,5 +1,6 @@
 import MenuPageHeader from "@/components/MenuPageHeader";
 import MenuList from "@/components/MenuList";
+import appetizersData from "@/public/data/appetizers.json";
 import "@/styles/appetizers.css";
 
 function Appetizers() {
@@ -12,7 +13,7 @@ function Appetizers() {
       </div>
 
       <MenuPageHeader nameOfClass="Appetizers-bg" menu="Appetizers" />
-      <MenuList />
+      <MenuList data={appetizersData} />
     </div>
   );
 }

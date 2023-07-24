@@ -5,6 +5,7 @@
 .MenuItemInfo-text-wrapper-1 {
   font-size: 1.5rem;
   margin-top: 1rem;
+  text-align: left;
 }
 .MenuItemInfo-text-wrapper-2 {
   font-size: 1.1rem;
@@ -12,4 +13,9 @@
   margin-top: 0.65rem;
   margin-bottom: 1rem;
   color: rgb(136, 136, 136);
+  text-align: left;
+}
+.MenuItemInfo-text-variants {
+  font-size: 1.1rem;
+  color: rgb(39, 39, 39);
 }

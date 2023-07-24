@@ -1,5 +1,6 @@
 import MenuPageHeader from "@/components/MenuPageHeader";
 import MenuList from "@/components/MenuList";
+import drinksData from "@/public/data/drinks.json";
 import "@/styles/drinks.css";
 
 function Drinks() {
@@ -12,7 +13,7 @@ function Drinks() {
       </div>
 
       <MenuPageHeader nameOfClass="Drinks-bg" menu="Drinks" />
-      <MenuList />
+      <MenuList data={drinksData} />
     </div>
   );
 }

@@ -1,6 +1,5 @@
 import Image from "next/image";
 import { EB_Garamond } from "next/font/google";
-import cn from "classnames";
 import MenuItemInfo from "./MenuItemInfo";
 import "@/styles/MenuItem.css";
 
