@@ -1,10 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import { EB_Garamond } from "next/font/google";
-import cn from "classnames";
-import "@/styles/Header.css";
 import Logo from "@/public/assets/images/banaras-logo.png";
 import TopBar from "./TopBar";
+import MenuNavItems from "./MenuNavItems";
+import "@/styles/Header.css";
 
 const EB_Garamond_Font = EB_Garamond({
   subsets: ["latin"],
@@ -45,9 +45,7 @@ function Header() {
                 </span>
 
                 <div className="avatar-dropdown-content">
-                  <Link href="/menu/appetizers">Appetizers</Link>
-                  <Link href="/menu/foods">Foods</Link>
-                  <Link href="/menu/drinks">Drinks</Link>
+                  <MenuNavItems />
                 </div>
               </div>
             </li>

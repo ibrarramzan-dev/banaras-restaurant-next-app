@@ -3,16 +3,16 @@
   height: 100%;
   padding-top: 1.7rem;
   padding-bottom: 9.3rem;
-  margin-top: -7rem;
+  /* margin-top: -7rem; */
 }
 .MenuList-vertical-line-wrapper {
   position: absolute;
   top: 0;
   left: 0;
   width: 50%;
-  height: 98.3%;
+  height: 90.3%;
   border-right: 1px solid #c6c6c6;
-  margin-top: 9rem;
+  margin-top: 1.75rem;
   margin-bottom: 1.75rem;
   z-index: -10;
 }

@@ -24,7 +24,7 @@ function MenuList({ data }) {
       menuJSX.push(
         <div className="MenuList-wrapper">
           {data[menuKey].map((menu) => (
-            <MenuListItem data={menu} />
+            <MenuListItem data={menu} key={menu.id} />
           ))}
         </div>
       );

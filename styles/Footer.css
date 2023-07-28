@@ -22,6 +22,7 @@
 .Footer-nav ul li {
   padding-bottom: 0.55rem;
   font-weight: 500;
+  margin-bottom: 0.45rem;
 }
 .Footer-nav ul li:hover {
   cursor: pointer;

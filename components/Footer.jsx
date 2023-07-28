@@ -1,12 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 import { EB_Garamond } from "next/font/google";
-import cn from "classnames";
 import FbIcon from "@/public/assets/images/fb.png";
 import InstaIcon from "@/public/assets/images/insta.png";
 import YoutubeIcon from "@/public/assets/images/youtube.png";
 import Logo from "@/public/assets/images/banaras-logo.png";
 import FooterBottomBar from "./FooterBottomBar";
+import MenuNavItems from "./MenuNavItems";
 import "@/styles/Footer.css";
 
 const EB_Garamond_Font = EB_Garamond({
@@ -51,9 +51,7 @@ function Footer() {
                 </span>
 
                 <div className="Footer-nav-item-dropdown-content">
-                  <Link href="/menu/appetizers">Appetizers</Link>
-                  <Link href="/menu/foods">Foods</Link>
-                  <Link href="/menu/drinks">Drinks</Link>
+                  <MenuNavItems />
                 </div>
               </div>
             </li>
