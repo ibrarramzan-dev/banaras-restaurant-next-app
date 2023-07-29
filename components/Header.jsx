@@ -38,10 +38,12 @@ function Header() {
                   className="avatar-dropdown-btn"
                   style={{ fontWeight: "bold" }}
                 >
-                  MENU{" "}
-                  <span style={{ fontSize: "0.72rem", height: "0.1rem" }}>
-                    ˅
-                  </span>
+                  <Link href="/menu">
+                    MENU{" "}
+                    <span style={{ fontSize: "0.72rem", height: "0.1rem" }}>
+                      ˅
+                    </span>
+                  </Link>
                 </span>
 
                 <div className="avatar-dropdown-content">
@@ -56,9 +58,11 @@ function Header() {
           </ul>
         </div>
 
-        <div className="Header-book-table">
-          <p>BOOK TABLE</p>
-        </div>
+        <Link href="/contacts">
+          <div className="Header-book-table">
+            <p>BOOK TABLE</p>
+          </div>
+        </Link>
       </div>
     </header>
   );

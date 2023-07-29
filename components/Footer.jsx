@@ -39,15 +39,17 @@ function Footer() {
             <li className="Footer-nav-item">
               <div className="Footer-nav-item-dropdown">
                 <span className="Footer-nav-item-dropdown-btn">
-                  MENU
-                  <span
-                    style={{
-                      fontSize: "0.72rem",
-                      height: "0.1rem",
-                    }}
-                  >
-                    ^
-                  </span>
+                  <Link href="/menu">
+                    MENU{" "}
+                    <span
+                      style={{
+                        fontSize: "0.72rem",
+                        height: "0.1rem",
+                      }}
+                    >
+                      ^
+                    </span>
+                  </Link>
                 </span>
 
                 <div className="Footer-nav-item-dropdown-content">
