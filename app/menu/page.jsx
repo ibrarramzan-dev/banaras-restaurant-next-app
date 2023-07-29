@@ -1,4 +1,5 @@
 "use client";
+import { useState } from "react";
 import Image from "next/image";
 import { EB_Garamond } from "next/font/google";
 import cn from "classnames";
@@ -12,8 +13,10 @@ const EB_Garamond_Font = EB_Garamond({
 });
 
 function Menu() {
+  const [currentMenu, setCurrentMenu] = useState("Foods");
+
   const onPillClick = (name) => {
-    alert(name);
+    setCurrentMenu(name);
   };
 
   return (
@@ -28,7 +31,10 @@ function Menu() {
       <div className="Menu-nav-items-pills-container">
         {menuItems.map(({ id, name }) => (
           <div
-            className="Menu-nav-items-pill"
+            className={cn({
+              "Menu-nav-items-pill": true,
+              "Menu-nav-items-active-pill": name === currentMenu,
+            })}
             onClick={() => onPillClick(name)}
           >
             {name}
