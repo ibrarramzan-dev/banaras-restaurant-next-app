@@ -8,7 +8,9 @@
 .Menu-nav-items-pills-container {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  column-gap: 7rem;
+  row-gap: 1.9rem;
+  padding-left: 2.5rem;
 }
 .Menu-nav-items-pill {
   width: fit-content;
