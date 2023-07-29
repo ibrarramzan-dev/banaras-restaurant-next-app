@@ -6,3 +6,10 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+.Foods-container .MenuList-container {
+  margin-top: -7rem;
+}
+.Foods-container .MenuList-vertical-line-wrapper {
+  margin-top: 12rem;
+  height: 94%;
+}

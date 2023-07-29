@@ -6,6 +6,10 @@
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+.Drinks-container .MenuList-container {
+  margin-top: -6.95rem;
+}
 .Drinks-container .MenuList-vertical-line-wrapper {
-  height: 90.5%;
+  margin-top: 12rem;
+  height: 88%;
 }

@@ -1,19 +1,24 @@
+import Link from "next/link";
 import MenuPageHeader from "@/components/MenuPageHeader";
 import MenuList from "@/components/MenuList";
-import appetizersData from "@/public/data/appetizers.json";
+import menu from "@/public/data/menu.json";
 import "@/styles/appetizers.css";
 
 function Appetizers() {
+  const appetizersMenuData = menu["Appetizers"];
+
   return (
     <div className="Appetizers-container">
       <div className="page-path-links">
-        <p>Menu</p>
+        <p>
+          <Link href="/menu">Menu</Link>
+        </p>
         <hr />
         <p className="page-path-current-link">Appetizers</p>
       </div>
 
       <MenuPageHeader nameOfClass="Appetizers-bg" menu="Appetizers" />
-      <MenuList data={appetizersData} />
+      <MenuList data={appetizersMenuData} />
     </div>
   );
 }

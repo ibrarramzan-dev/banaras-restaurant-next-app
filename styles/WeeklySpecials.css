@@ -1,3 +1,8 @@
 .WeeklySpecials-container .MenuList-vertical-line-wrapper {
   height: 61%;
 }
+.WeeklySpecials-bg {
+  background-image: url(../public/assets/images/WeeklySpecials-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

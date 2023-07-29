@@ -1,23 +1,23 @@
-.Menu-container {
+.MenuSection-container {
   height: 74.5rem;
 }
-.Menu-heading {
+.MenuSection-heading {
   font-size: 3.5rem;
   padding-top: 1.35rem;
   margin-bottom: 1.1rem;
   text-align: center;
 }
-.Menu-items-wrapper {
+.MenuSection-items-wrapper {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
   row-gap: 2.61rem;
 }
-.Menu-see-menu-btn-wrapper {
+.MenuSection-see-menu-btn-wrapper {
   display: flex;
   justify-content: center;
 }
-.Menu-see-menu-btn-wrapper button {
+.MenuSection-see-menu-btn-wrapper button {
   background: none;
   width: 10rem;
   padding: 1rem;

@@ -1,27 +1,29 @@
 import { EB_Garamond } from "next/font/google";
 import cn from "classnames";
 import MenuItem from "./MenuItem";
-import MenuImg1 from "@/public/assets/images/Menu-img-1.jpg";
-import MenuImg2 from "@/public/assets/images/Menu-img-2.jpg";
-import MenuImg3 from "@/public/assets/images/Menu-img-3.jpg";
-import MenuImg4 from "@/public/assets/images/Menu-img-4.jpg";
-import MenuImg5 from "@/public/assets/images/Menu-img-5.jpg";
-import MenuImg6 from "@/public/assets/images/Menu-img-6.jpg";
-import "@/styles/Menu.css";
+import MenuSectionImg1 from "@/public/assets/images/MenuSection-img-1.jpg";
+import MenuSectionImg2 from "@/public/assets/images/MenuSection-img-2.jpg";
+import MenuSectionImg3 from "@/public/assets/images/MenuSection-img-3.jpg";
+import MenuSectionImg4 from "@/public/assets/images/MenuSection-img-4.jpg";
+import MenuSectionImg5 from "@/public/assets/images/MenuSection-img-5.jpg";
+import MenuSectionImg6 from "@/public/assets/images/MenuSection-img-6.jpg";
+import "@/styles/MenuSection.css";
 
 const EB_Garamond_Font = EB_Garamond({
   subsets: ["latin"],
   weight: "400",
 });
 
-function Menu() {
+function MenuSection() {
   return (
-    <section className="Menu-container">
-      <p className={cn(EB_Garamond_Font.className, "Menu-heading")}>Menu</p>
+    <section className="MenuSection-container">
+      <p className={cn(EB_Garamond_Font.className, "MenuSection-heading")}>
+        Menu
+      </p>
 
-      <div className="Menu-items-wrapper">
+      <div className="MenuSection-items-wrapper">
         <MenuItem
-          image={MenuImg1}
+          image={MenuSectionImg1}
           alt="Thyme Soup with Cream"
           name="Thyme Soup with Cream"
           price="5.45"
@@ -29,7 +31,7 @@ function Menu() {
           weight="320"
         />
         <MenuItem
-          image={MenuImg2}
+          image={MenuSectionImg2}
           alt="Hot Grilled Chicken Breast"
           name="Hot Grilled Chicken Breast"
           price="2.45"
@@ -37,7 +39,7 @@ function Menu() {
           weight="320"
         />
         <MenuItem
-          image={MenuImg3}
+          image={MenuSectionImg3}
           alt="Big Smokey Burger"
           name="Big Smokey Burger"
           price="8.45"
@@ -45,7 +47,7 @@ function Menu() {
           weight="320"
         />
         <MenuItem
-          image={MenuImg4}
+          image={MenuSectionImg4}
           alt="Blue Cheese Burger"
           name="Blue Cheese Burger"
           price="5.45"
@@ -53,7 +55,7 @@ function Menu() {
           weight="320"
         />
         <MenuItem
-          image={MenuImg5}
+          image={MenuSectionImg5}
           alt="Catriona potato gnocchi"
           name="Catriona potato gnocchi"
           price="8.71"
@@ -61,7 +63,7 @@ function Menu() {
           weight="320"
         />
         <MenuItem
-          image={MenuImg6}
+          image={MenuSectionImg6}
           alt="Fruit Pie"
           name="Fruit Pie"
           price="6.45"
@@ -70,11 +72,11 @@ function Menu() {
         />
       </div>
 
-      <div className="Menu-see-menu-btn-wrapper">
+      <div className="MenuSection-see-menu-btn-wrapper">
         <button>SEE MENU</button>
       </div>
     </section>
   );
 }
 
-export default Menu;
+export default MenuSection;

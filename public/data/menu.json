@@ -309,7 +309,7 @@
       }
     ]
   },
-  "Appetizer": {
+  "Appetizers": {
     "": [
       {
         "id": 37,
@@ -553,7 +553,7 @@
       }
     ]
   },
-  "Food": {
+  "Foods": {
     "Veg Special": [
       {
         "id": 65,
