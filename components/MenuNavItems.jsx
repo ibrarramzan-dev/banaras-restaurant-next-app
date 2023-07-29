@@ -1,20 +1,14 @@
 import Link from "next/link";
+import menuItems from "@/public/data/menuItems.json";
 
 function MenuNavItems() {
   return (
     <>
-      <Link href="/menu/indian-fusion">Indian Fusion</Link>
-      <Link href="/menu/chatora-junction">Chatora Junction</Link>
-      <Link href="/menu/indo-chinese">Indo-Chinese</Link>
-      <Link href="/menu/appetizers">Appetizers</Link>
-      <Link href="/menu/tandoori-love">Tandoori Love</Link>
-      <Link href="/menu/biryani">Biryani</Link>
-      <Link href="/menu/house-specials">House Special's</Link>
-      <Link href="/menu/foods">Foods</Link>
-      <Link href="/menu/weekly-specials">Weekly Special's</Link>
-      <Link href="/menu/dessert-specials">Dessert Special's</Link>
-      <Link href="/menu/kid-elicious">KiD'elicious</Link>
-      <Link href="/menu/drinks">Drinks</Link>
+      {menuItems.map(({ id, path, name }) => (
+        <Link href={`/menu/${path}`} key={id}>
+          {name}
+        </Link>
+      ))}
     </>
   );
 }
