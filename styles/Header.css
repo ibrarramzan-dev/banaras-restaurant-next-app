@@ -105,8 +105,9 @@
   .Header-container {
     flex-direction: column;
   }
-  .Header-log img {
-    text-align: right;
+  .Header-logo {
+    display: flex;
+    justify-content: center;
   }
   .Header-book-table {
     width: 100%;
