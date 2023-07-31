@@ -19,3 +19,9 @@
   font-size: 1.1rem;
   color: rgb(39, 39, 39);
 }
+
+@media (max-width: 874px) {
+  .MenuItemInfo-container {
+    padding: 0 0.45rem;
+  }
+}
