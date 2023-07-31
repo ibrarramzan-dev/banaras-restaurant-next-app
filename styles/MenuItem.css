@@ -1,6 +1,8 @@
 .MenuItem-container {
   position: relative;
-  width: fit-content;
+}
+.MenuItem-container img {
+  width: 100%;
 }
 .MenuItem-chef-special-wrapper {
   position: absolute;

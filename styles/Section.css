@@ -42,4 +42,7 @@
   .Section-container {
     flex-direction: column;
   }
+  .Section-item-wrapper {
+    border-bottom: 1px solid #808080;
+  }
 }

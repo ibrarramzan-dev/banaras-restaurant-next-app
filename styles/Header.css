@@ -112,3 +112,13 @@
     width: 100%;
   }
 }
+
+@media (max-width: 405px) {
+  .Header-nav ul {
+    flex-direction: column;
+  }
+  .Header-nav ul li {
+    margin-left: 0 !important;
+    text-align: center;
+  }
+}

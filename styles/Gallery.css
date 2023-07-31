@@ -1,4 +1,5 @@
 .Gallery-container {
+  height: 100%;
   padding: 2.9rem 0.96rem 4.5rem 0;
 }
 .Gallery-wrapper {
@@ -11,4 +12,13 @@
   width: 20rem;
   height: 15rem;
   cursor: pointer;
+}
+
+@media (max-width: 874px) {
+  .Gallery-container {
+    padding: 1rem 0.5rem;
+  }
+  .Gallery-img {
+    width: 100%;
+  }
 }

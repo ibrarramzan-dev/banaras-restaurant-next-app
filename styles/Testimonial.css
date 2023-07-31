@@ -1,5 +1,6 @@
 .Testimonial-container {
   width: 40.85rem;
+  height: 100%;
 }
 .Testimonial-avatar-wrapper {
   text-align: center;
@@ -18,4 +19,12 @@
   font-size: 1rem;
   font-style: italic;
   margin-top: 0.425rem;
+}
+
+@media (max-width: 874px) {
+  .Testimonial-container {
+    width: 100%;
+    margin-bottom: 6.5rem;
+    padding: 0 1rem;
+  }
 }

@@ -1,5 +1,5 @@
 .Story-container {
-  height: 37.5rem;
+  height: 100%;
   display: flex;
   justify-content: flex-end;
   column-gap: 5.5rem;

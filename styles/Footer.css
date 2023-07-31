@@ -90,5 +90,26 @@
 @media (max-width: 874px) {
   .Footer-container {
     flex-direction: column;
+    padding-left: 1rem;
+  }
+  .Footer-logo {
+    margin-bottom: 2rem;
+  }
+  .Footer-heading {
+    margin-left: 0 !important;
+  }
+  .Footer-nav ul {
+    margin-left: 0;
+  }
+  .Footer-business-hours-times-wrapper {
+    margin-left: 0;
+    margin-bottom: 2rem;
+  }
+  .Footer-socials-wrapper {
+    margin-top: -0.4rem;
+    text-align: center;
+  }
+  .Footer-socials-wrapper img {
+    margin-left: 1.5rem;
   }
 }

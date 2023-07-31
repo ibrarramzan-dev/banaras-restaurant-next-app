@@ -24,4 +24,14 @@
   .FooterBottomBar-container {
     flex-direction: column;
   }
+  .FooterBottomBar-brand-and-year {
+    font-weight: bold;
+  }
+  .FooterBottomBar-address-phone-email-col {
+    flex-direction: column;
+    padding-left: 1.7rem;
+  }
+  .FooterBottomBar-address-phone-email-col p {
+    margin: 0.56rem 0 !important;
+  }
 }
