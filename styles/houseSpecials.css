@@ -1,8 +1,3 @@
 .HouseSpecials-container .MenuList-vertical-line-wrapper {
   height: 79%;
 }
-.HouseSpecials-bg {
-  background-image: url(../public/assets/images/HouseSpecials-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}

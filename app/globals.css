@@ -48,3 +48,64 @@ a {
 .page-path-current-link {
   color: #5b5b5b !important;
 }
+/* MenuPageHeader global css */
+.Appetizers-bg {
+  background-image: url(../public/assets/images/Appetizers-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Biryani-bg {
+  background-image: url(../public/assets/images/Biryani-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.ChatoraJunction-bg {
+  background-image: url(../public/assets/images/ChatoraJunction-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.DessertSpecials-bg {
+  background-image: url(../public/assets/images/DessertSpecials-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Drinks-bg {
+  background-image: url(../public/assets/images/Drinks-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.Foods-bg {
+  background-image: url(../public/assets/images/Foods-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.HouseSpecials-bg {
+  background-image: url(../public/assets/images/HouseSpecials-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.IndianFusion-bg {
+  background-image: url(../public/assets/images/IndianFusion-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.IndoChinese-bg {
+  background-image: url(../public/assets/images/IndoChinese-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.KidElicious-bg {
+  background-image: url(../public/assets/images/KidElicious-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.TandooriLove-bg {
+  background-image: url(../public/assets/images/TandooriLove-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.WeeklySpecials-bg {
+  background-image: url(../public/assets/images/WeeklySpecials-bg.jpeg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

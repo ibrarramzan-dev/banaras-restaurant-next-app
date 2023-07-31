@@ -4,7 +4,10 @@ import Image from "next/image";
 import { EB_Garamond } from "next/font/google";
 import cn from "classnames";
 import Dash from "@/public/assets/images/dash.png";
+import menu from "@/public/data/menu.json";
 import menuItems from "@/public/data/menuItems.json";
+import MenuPageHeader from "@/components/MenuPageHeader";
+import MenuList from "@/components/MenuList";
 import "@/styles/menu.css";
 
 const EB_Garamond_Font = EB_Garamond({
@@ -18,6 +21,12 @@ function Menu() {
   const onPillClick = (name) => {
     setCurrentMenu(name);
   };
+
+  const currentMenuStr = currentMenu
+    .replace(" ", "")
+    .replace("'", "")
+    .replace("-", "")
+    .replace("KiDe", "KidE");
 
   return (
     <div className={cn(EB_Garamond_Font.className, "Menu-container")}>
@@ -40,6 +49,14 @@ function Menu() {
             {name}
           </div>
         ))}
+      </div>
+
+      <br />
+      <hr />
+
+      <MenuPageHeader nameOfClass={`${currentMenuStr}-bg`} menu={currentMenu} />
+      <div className={`Menu-${currentMenuStr}-wrapper`}>
+        <MenuList data={menu[currentMenu]} />
       </div>
     </div>
   );

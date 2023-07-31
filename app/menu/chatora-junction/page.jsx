@@ -2,7 +2,6 @@ import Link from "next/link";
 import MenuPageHeader from "@/components/MenuPageHeader";
 import MenuList from "@/components/MenuList";
 import menu from "@/public/data/menu.json";
-import "@/styles/chatoraJunction.css";
 
 function ChatoraJunction() {
   const chatoraJunctionMenu = menu["Chatora Junction"];

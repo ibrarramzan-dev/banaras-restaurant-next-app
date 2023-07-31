@@ -1,11 +1,6 @@
 .Foods-container {
   text-align: center;
 }
-.Foods-bg {
-  background-image: url(../public/assets/images/Foods-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
 .Foods-container .MenuList-container {
   margin-top: -7rem;
 }
