@@ -38,7 +38,10 @@ function Contacts() {
         <br />
 
         <p className="Contacts-text-we-are-open">
-          We are <b>open:</b> <span>🕓</span>
+          <u>
+            We are <b>open:</b>
+          </u>{" "}
+          <span>🕓</span>
         </p>
         <div className="Contacts-text-open-timings-wrapper">
           <p>Mon – Thu: 11:00 AM – 2:30 PM</p>
