@@ -9,3 +9,11 @@
 .MenuListItem-container:nth-child(even) {
   margin-left: 1.4rem;
 }
+
+@media (max-width: 874px) {
+  .MenuListItem-container {
+    width: 100%;
+    margin-left: 0 !important;
+    padding-right: 1rem;
+  }
+}
