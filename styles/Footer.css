@@ -86,3 +86,9 @@
 }
 
 /* -- End of Avatar Dropdown -- */
+
+@media (max-width: 874px) {
+  .Footer-container {
+    flex-direction: column;
+  }
+}

@@ -47,3 +47,10 @@
   cursor: pointer;
   letter-spacing: 0.18rem;
 }
+
+@media (max-width: 874px) {
+  .Banner-container {
+    height: 40rem;
+    padding-left: 1rem;
+  }
+}

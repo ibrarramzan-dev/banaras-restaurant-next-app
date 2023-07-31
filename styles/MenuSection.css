@@ -25,4 +25,11 @@
   margin-bottom: 3rem;
   border-width: 0.1225rem;
   box-shadow: 4px 4px rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+}
+
+@media (max-width: 874px) {
+  .MenuSection-container {
+    height: 100%;
+  }
 }

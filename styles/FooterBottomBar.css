@@ -19,3 +19,9 @@
 .FooterBottomBar-address-phone-email-col p {
   margin-top: 0.3rem;
 }
+
+@media (max-width: 874px) {
+  .FooterBottomBar-container {
+    flex-direction: column;
+  }
+}

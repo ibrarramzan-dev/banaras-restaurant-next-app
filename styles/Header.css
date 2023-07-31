@@ -100,3 +100,15 @@
 }
 
 /* -- End of Avatar Dropdown -- */
+
+@media (max-width: 874px) {
+  .Header-container {
+    flex-direction: column;
+  }
+  .Header-log img {
+    text-align: right;
+  }
+  .Header-book-table {
+    width: 100%;
+  }
+}

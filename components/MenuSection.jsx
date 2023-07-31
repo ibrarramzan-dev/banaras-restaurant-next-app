@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { EB_Garamond } from "next/font/google";
 import cn from "classnames";
 import MenuItem from "./MenuItem";
@@ -73,7 +74,9 @@ function MenuSection() {
       </div>
 
       <div className="MenuSection-see-menu-btn-wrapper">
-        <button>SEE MENU</button>
+        <Link href="/menu">
+          <button>SEE MENU</button>
+        </Link>
       </div>
     </section>
   );

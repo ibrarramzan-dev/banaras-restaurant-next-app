@@ -1,12 +1,13 @@
 .Section-container {
-  background: #fff;
+  height: 100%;
   display: flex;
   justify-content: space-between;
+  background: #fff;
   padding-top: 4rem;
   padding-bottom: 4rem;
 }
 .Section-item-wrapper {
-  width: 26.8rem;
+  width: fit-content;
   height: 27.5rem;
   box-shadow: 0px 4px 4px 0px #00000040, inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
   color: #fff;
@@ -35,4 +36,10 @@
   font-size: 1.8rem;
   font-style: italic;
   line-height: 3rem;
+}
+
+@media (max-width: 874px) {
+  .Section-container {
+    flex-direction: column;
+  }
 }
