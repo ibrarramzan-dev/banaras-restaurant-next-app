@@ -23,3 +23,9 @@
   line-height: 3.4rem;
   margin-top: 1.6rem;
 }
+
+@media (max-width: 412px) {
+  .Founded-text {
+    padding: 0 1rem;
+  }
+}
