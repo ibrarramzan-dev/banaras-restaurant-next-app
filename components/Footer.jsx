@@ -5,6 +5,8 @@ import FbIcon from "@/public/assets/images/fb.png";
 import InstaIcon from "@/public/assets/images/insta.png";
 import YoutubeIcon from "@/public/assets/images/youtube.png";
 import Logo from "@/public/assets/images/banaras-logo.png";
+import LunchHours from "./LunchHours";
+import DinnerHours from "./DinnerHours";
 import FooterBottomBar from "./FooterBottomBar";
 import MenuNavItems from "./MenuNavItems";
 import "@/styles/Footer.css";
@@ -67,16 +69,14 @@ function Footer() {
         <div className="Footer-business-hours-wrapper">
           <p className="Footer-heading">Lunch Hours</p>
           <div className="Footer-business-hours-times-wrapper">
-            <p>Mon – Thu: 11:00 AM – 2:30 PM</p>
-            <p>Fri – Sun: 11:00 AM – 3:00 PM</p>
+            <LunchHours />
           </div>
         </div>
 
         <div className="Footer-business-hours-wrapper">
           <p className="Footer-heading">Dinner Hours</p>
           <div className="Footer-business-hours-times-wrapper">
-            <p>Mon – Thu: 11:00 AM – 2:30 PM</p>
-            <p>Fri – Sun: 11:00 AM – 3:00 PM</p>
+            <DinnerHours />
           </div>
         </div>
 

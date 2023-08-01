@@ -17,6 +17,7 @@
   cursor: pointer;
   color: #fff;
   font-weight: bold;
+  font-style: italic;
 }
 .Menu-nav-items-active-pill {
   background: #fff;
@@ -46,11 +47,11 @@
 .Menu-HouseSpecials-wrapper .MenuList-vertical-line-wrapper {
   height: 76.5%;
 }
-.Menu-Foods-wrapper,
+.Menu-Food-wrapper,
 .Menu-Drinks-wrapper {
   margin-top: -7.6rem;
 }
-.Menu-Foods-wrapper .MenuList-vertical-line-wrapper {
+.Menu-Food-wrapper .MenuList-vertical-line-wrapper {
   height: 97.3%;
 }
 .Menu-WeeklySpecials-wrapper .MenuList-vertical-line-wrapper {

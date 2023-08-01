@@ -1,9 +1,5 @@
 .Header-container {
-  position: fixed;
-  top: 0;
-  width: 100%;
-  z-index: 2000;
-  border-bottom: 1px solid rgb(197, 197, 197);
+  border-bottom: 1px solid rgb(232, 230, 230);
   display: flex;
   justify-content: space-between;
   background: #fff;
@@ -115,7 +111,7 @@
     justify-content: center;
   }
   .Header-book-table {
-    width: 100%;
+    width: 101.7%;
   }
 }
 
@@ -126,5 +122,8 @@
   .Header-nav ul li {
     margin-left: 0 !important;
     text-align: center;
+  }
+  .Header-book-table {
+    width: 100.87%;
   }
 }

@@ -20,7 +20,7 @@ function Story() {
           <p
             className={cn(EB_Garamond_Font.className, "Story-left-col-text-1")}
           >
-            The Banaras xpress
+            The Banaras Xpress
           </p>
           <p
             className={cn(EB_Garamond_Font.className, "Story-left-col-text-2")}

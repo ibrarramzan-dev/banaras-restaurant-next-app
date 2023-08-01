@@ -16,7 +16,7 @@ const EB_Garamond_Font = EB_Garamond({
 });
 
 function Menu() {
-  const [currentMenu, setCurrentMenu] = useState("Foods");
+  const [currentMenu, setCurrentMenu] = useState("Food");
 
   const onPillClick = (name) => {
     setCurrentMenu(name);

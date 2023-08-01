@@ -1,10 +1,12 @@
-import "@/styles/TopBar.css";
 import Image from "next/image";
 import LocationIcon from "@/public/assets/images/location.png";
 import TelephoneIcon from "@/public/assets/images/telephone.png";
 import FbIcon from "@/public/assets/images/fb.png";
 import InstaIcon from "@/public/assets/images/insta.png";
 import YoutubeIcon from "@/public/assets/images/youtube.png";
+import LunchHours from "./LunchHours";
+import DinnerHours from "./DinnerHours";
+import "@/styles/TopBar.css";
 
 function TopBar() {
   return (
@@ -18,8 +20,7 @@ function TopBar() {
           <b>Lunch Hours</b>
         </p>
         <p>
-          <p>Mon – Thu: 11:00 AM – 2:30 PM</p>
-          <p>Fri – Sun: 11:00 AM – 3:00 PM</p>
+          <LunchHours />
         </p>
       </div>
       <div className="Topbar-hours-container">
@@ -27,8 +28,7 @@ function TopBar() {
           <b>Dinner Hours</b>
         </p>
         <div>
-          <p>Mon – Thu: 11:00 AM – 2:30 PM</p>
-          <p>Fri – Sun: 11:00 AM – 3:00 PM</p>
+          <DinnerHours />
         </div>
       </div>
       <div className="Topbar-number-container">

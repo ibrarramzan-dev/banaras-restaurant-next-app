@@ -1,0 +1,10 @@
+.Food-container {
+  text-align: center;
+}
+.Food-container .MenuList-container {
+  margin-top: -7rem;
+}
+.Food-container .MenuList-vertical-line-wrapper {
+  margin-top: 12rem;
+  height: 94%;
+}

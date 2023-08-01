@@ -6,7 +6,7 @@ import Footer from "@/components/Footer";
 import "./globals.css";
 
 export const metadata = {
-  title: "Banaras xpress",
+  title: "Banaras Xpress",
   description: "Best restaurant in town",
 };
 
@@ -47,17 +47,6 @@ export default function RootLayout({ children }) {
             >
               {children}
             </motion.div>
-            {/* <motion.div
-              variants={{
-                hidden: { left: 0 },
-                visible: { left: "100%" },
-              }}
-              initial="hidden"
-              animate={slideControls}
-              transition={{ duration: 5, ease: "easeIn" }}
-\            >
-              {children}
-            </motion.div> */}
           </div>{" "}
           <Footer />
         </main>
