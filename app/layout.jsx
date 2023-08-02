@@ -15,7 +15,6 @@ export default function RootLayout({ children }) {
   const isInView = useInView(ref, { once: true });
 
   const mainControls = useAnimation();
-  const slideControls = useAnimation();
 
   useEffect(() => {
     if (isInView) {
