@@ -20,6 +20,18 @@ body {
     rgba(0, 212, 255, 1) 100%
   );
 }
+@keyframes main-anim {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+main {
+  animation-name: main-anim;
+  animation-duration: 1.5s;
+}
 
 a {
   color: inherit;

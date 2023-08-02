@@ -65,7 +65,7 @@
   cursor: pointer;
   letter-spacing: 0.18rem;
   animation-name: Banner-text-4-anim;
-  animation-duration: 2.3s;
+  animation-duration: 1.4s;
 }
 
 @media (max-width: 874px) {

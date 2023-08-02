@@ -33,7 +33,7 @@
 }
 .MenuItem-container:hover .MenuItem-chef-special-wrapper {
   animation-name: MenuItem-chef-special-wrapper-anim;
-  animation-duration: 1.2s;
+  animation-duration: 0.6s;
   animation-fill-mode: forwards;
   transition: 350ms ease-out;
 }
