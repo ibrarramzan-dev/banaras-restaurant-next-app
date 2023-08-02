@@ -1,13 +1,16 @@
+"use client";
 import Link from "next/link";
 import { EB_Garamond } from "next/font/google";
+import _ from "lodash";
 import cn from "classnames";
 import MenuItem from "./MenuItem";
-import MenuSectionImg1 from "@/public/assets/images/MenuSection-img-1.jpg";
-import MenuSectionImg2 from "@/public/assets/images/MenuSection-img-2.jpg";
-import MenuSectionImg3 from "@/public/assets/images/MenuSection-img-3.jpg";
-import MenuSectionImg4 from "@/public/assets/images/MenuSection-img-4.jpg";
-import MenuSectionImg5 from "@/public/assets/images/MenuSection-img-5.jpg";
-import MenuSectionImg6 from "@/public/assets/images/MenuSection-img-6.jpg";
+import chefSpecialImg1 from "@/public/assets/images/chef-special/img1.jpg";
+import chefSpecialImg2 from "@/public/assets/images/chef-special/img2.jpg";
+import chefSpecialImg3 from "@/public/assets/images/chef-special/img3.jpg";
+import chefSpecialImg4 from "@/public/assets/images/chef-special/img4.jpg";
+import chefSpecialImg5 from "@/public/assets/images/chef-special/img5.jpg";
+import chefSpecialImg6 from "@/public/assets/images/chef-special/img6.jpg";
+import menu from "@/public/data/menu.json";
 import "@/styles/MenuSection.css";
 
 const EB_Garamond_Font = EB_Garamond({
@@ -16,6 +19,24 @@ const EB_Garamond_Font = EB_Garamond({
 });
 
 function MenuSection() {
+  const menuObjKeys = Object.keys(menu);
+
+  const chefSpecialMenu = [];
+  menuObjKeys.forEach((menuItemKey) => {
+    const menuItemKeyRecordsObj = menu[menuItemKey];
+    const menuItemKeySubRecordsKeys = Object.keys(menuItemKeyRecordsObj);
+
+    menuItemKeySubRecordsKeys.forEach((menuItemKeySubRecordsKey) => {
+      const records = menuItemKeyRecordsObj[menuItemKeySubRecordsKey];
+
+      const menu = records.forEach((record) => {
+        if (record.chefSpecial) {
+          chefSpecialMenu.push(record);
+        }
+      });
+    });
+  });
+
   return (
     <section className="MenuSection-container">
       <p className={cn(EB_Garamond_Font.className, "MenuSection-heading")}>
@@ -23,54 +44,44 @@ function MenuSection() {
       </p>
 
       <div className="MenuSection-items-wrapper">
-        <MenuItem
-          image={MenuSectionImg1}
-          alt="Thyme Soup with Cream"
-          name="Thyme Soup with Cream"
-          price="5.45"
-          desc="with Winter black truffles from Piedmont"
-          weight="320"
-        />
-        <MenuItem
-          image={MenuSectionImg2}
-          alt="Hot Grilled Chicken Breast"
-          name="Hot Grilled Chicken Breast"
-          price="2.45"
-          desc="with pecan ‘épicé’ & passe crassane pear"
-          weight="320"
-        />
-        <MenuItem
-          image={MenuSectionImg3}
-          alt="Big Smokey Burger"
-          name="Big Smokey Burger"
-          price="8.45"
-          desc="with ground beef sirloin and adobo sauce"
-          weight="320"
-        />
-        <MenuItem
-          image={MenuSectionImg4}
-          alt="Blue Cheese Burger"
-          name="Blue Cheese Burger"
-          price="5.45"
-          desc="with sun-dried tomatoes and lean ground beef"
-          weight="320"
-        />
-        <MenuItem
-          image={MenuSectionImg5}
-          alt="Catriona potato gnocchi"
-          name="Catriona potato gnocchi"
-          price="8.71"
-          desc="with black truffles"
-          weight="320"
-        />
-        <MenuItem
-          image={MenuSectionImg6}
-          alt="Fruit Pie"
-          name="Fruit Pie"
-          price="6.45"
-          desc="with raisins, chopped pecans, and coconut"
-          weight="320"
-        />
+        {chefSpecialMenu.map((menuItem) => {
+          let img;
+          switch (menuItem.id) {
+            case 1:
+              img = chefSpecialImg1;
+              break;
+            case 18:
+              img = chefSpecialImg2;
+              break;
+            case 33:
+              img = chefSpecialImg3;
+              break;
+            case 34:
+              img = chefSpecialImg4;
+              break;
+            case 68:
+              img = chefSpecialImg5;
+              break;
+            case 98:
+              img = chefSpecialImg6;
+              break;
+
+            default:
+              img = chefSpecialImg1;
+              break;
+          }
+
+          return (
+            <MenuItem
+              image={img}
+              alt={menuItem.name}
+              name={menuItem.name}
+              price={menuItem.price}
+              desc={menuItem.desc}
+              key={menuItem.id}
+            />
+          );
+        })}
       </div>
 
       <div className="MenuSection-see-menu-btn-wrapper">

@@ -7,7 +7,8 @@
         "variants": "Chicken Tikka | Paneer Tikka | Soya",
         "price": "10 | 10 | 10",
         "desc": "Nacho chips topped with tomato, cheese, beans, sour cream and Indian sauce",
-        "chefSpecial": false
+        "chefSpecial": true,
+        "image": ""
       }
     ],
     "Pizza": [
@@ -17,7 +18,8 @@
         "variants": "",
         "price": "12",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 3,
@@ -25,7 +27,8 @@
         "variants": "",
         "price": "12",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 4,
@@ -33,7 +36,8 @@
         "variants": "",
         "price": "12",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 5,
@@ -41,7 +45,8 @@
         "variants": "",
         "price": "12",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ],
     "TACOS": [
@@ -51,7 +56,8 @@
         "variants": "",
         "price": "12",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 7,
@@ -59,7 +65,8 @@
         "variants": "",
         "price": "12",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 8,
@@ -67,7 +74,8 @@
         "variants": "",
         "price": "12",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 9,
@@ -75,7 +83,8 @@
         "variants": "",
         "price": "12",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ],
     "Momos": [
@@ -85,7 +94,8 @@
         "variants": "",
         "price": "12",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 11,
@@ -93,7 +103,8 @@
         "variants": "",
         "price": "12",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 12,
@@ -101,7 +112,8 @@
         "variants": "",
         "price": "12",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ],
     "Wings": [
@@ -111,7 +123,8 @@
         "variants": "6 | 12 | 24",
         "price": "8 | 14 | 25",
         "desc": "Fresh Chicken wings served with fusion sauce. ~ Butter | Tikka | Malai | Tandoori | Thai | Garlic | Buffalo",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 14,
@@ -119,7 +132,8 @@
         "variants": "8 | 16 | 32",
         "price": "8 | 14 | 25",
         "desc": "Fresh Chicken wings served with fusion sauce. ~ Butter | Tikka | Malai | Tandoori | Thai | Garlic | Buffalo",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 15,
@@ -127,7 +141,8 @@
         "variants": "6 | 12 | 24",
         "price": "8 | 14 | 25",
         "desc": "Fresh Chicken wings served with fusion sauce. ~ Butter | Tikka | Malai | Tandoori | Thai | Garlic | Buffalo",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ],
     "Burgers": [
@@ -137,7 +152,8 @@
         "variants": "",
         "price": "7",
         "desc": "Golden crisp potato and peas patties, layered on a toasted bun and topped with cilantro chutney, cheese, onion, and tomato",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 17,
@@ -145,7 +161,8 @@
         "variants": "",
         "price": "8",
         "desc": "Crispy Paneer fillets with our house-made makhani sauce, lettuce, sour cream, fresh onions and tomato",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 18,
@@ -153,7 +170,8 @@
         "variants": "",
         "price": "8",
         "desc": "Grilled chicken breast topped with our house-made tandoori sauce, lettuce, sour cream, fresh onions and tomato",
-        "chefSpecial": false
+        "chefSpecial": true,
+        "image": ""
       },
       {
         "id": 19,
@@ -161,7 +179,8 @@
         "variants": "",
         "price": "7",
         "desc": "Peanuts mixed with finely chopped Onions, tomato and green chilli",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 20,
@@ -169,7 +188,8 @@
         "variants": "",
         "price": "8",
         "desc": "House-made tikka sauce served with crispy buttery mini nans",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ]
   },
@@ -181,7 +201,8 @@
         "variants": "",
         "price": "8",
         "desc": "Lentil balls topped with yogurt / tamarind / house made chutney",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 22,
@@ -189,7 +210,8 @@
         "variants": "",
         "price": "8",
         "desc": "Crispy wheat shells stuffed with potato, onions, chickpeas served with homemade tangy mint coriander water",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 23,
@@ -197,7 +219,8 @@
         "variants": "",
         "price": "10",
         "desc": "Potato patties with cashew deep fried topped with chickpeas, yogurt, tamarind and mint chutney",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 24,
@@ -205,7 +228,8 @@
         "variants": "",
         "price": "10",
         "desc": "chickpeas, potatoes, various chutneys, yogurt, papdi, yogurt, sev and is garnished with coriander",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 25,
@@ -213,7 +237,8 @@
         "variants": "",
         "price": "8",
         "desc": "puffed rice mixed with chickpeas, yogurt, tamarind and mint chutney",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 26,
@@ -221,7 +246,8 @@
         "variants": "",
         "price": "10",
         "desc": "Mumbai famous baji from Mashed potatoes and vegetable, served with butter pav bread",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 27,
@@ -229,7 +255,8 @@
         "variants": "",
         "price": "10",
         "desc": "Sweet Potato and avocado topped with onions, yogurt and homemade chutneys",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 28,
@@ -237,7 +264,8 @@
         "variants": "",
         "price": "6",
         "desc": "Stuffed Spice potato , peas pastry served with a side of chutneys",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 29,
@@ -245,7 +273,8 @@
         "variants": "",
         "price": "12",
         "desc": "Punjab special, two deep fried puffy breads served with chickpeas",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 30,
@@ -253,7 +282,8 @@
         "variants": "",
         "price": "8",
         "desc": "Stuffed Spice potato, peas pastry topped with chickpeas, yogurt, tamarind & mint chutney",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ]
   },
@@ -265,7 +295,8 @@
         "variants": "Veg | Egg | Chicken | Shrimp",
         "price": "10 | 12 | 12 | 14",
         "desc": "Noodles, wok-seared with vegetables, garlic, ginger, chillies , soy sauce & spices",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 32,
@@ -273,7 +304,8 @@
         "variants": "",
         "price": "12",
         "desc": "Minced Vegetables fritters cooked with garlic, ginger, chillies , soy sauce & spices",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 33,
@@ -281,7 +313,8 @@
         "variants": "Veg | Egg | Chicken | Shrimp",
         "price": "10 | 12 | 12 | 14",
         "desc": "Rice stir-fried with vegetables, garlic, ginger, chillies , soy sauce & spices",
-        "chefSpecial": false
+        "chefSpecial": true,
+        "image": ""
       },
       {
         "id": 34,
@@ -289,7 +322,8 @@
         "variants": "",
         "price": "12 | 14",
         "desc": "Sauteed with minced garlic , onion & schezwan sauce , served with rice",
-        "chefSpecial": false
+        "chefSpecial": true,
+        "image": ""
       },
       {
         "id": 35,
@@ -297,7 +331,8 @@
         "variants": "",
         "price": "8",
         "desc": "Cottage cheese tossed with onions,peppers and chili sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 36,
@@ -305,7 +340,8 @@
         "variants": "",
         "price": "8",
         "desc": "Fried Cauliflower Florets tossed with onions, peppers and chili sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ]
   },
@@ -317,7 +353,8 @@
         "variants": "",
         "price": 8,
         "desc": "cottage cheese cubes sauteed with mustard seeds & curry leaves and tangy sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 38,
@@ -325,7 +362,8 @@
         "variants": "",
         "price": 8,
         "desc": "Fried Cauliflower Florets sauteed with mustard seeds & curry leaves and tangy sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 39,
@@ -333,7 +371,8 @@
         "variants": "",
         "price": 8,
         "desc": "Fried Chicken cubes sauteed with mustard seeds & curry leaves and tangy sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ],
     "Parantha Gali": [
@@ -343,7 +382,8 @@
         "variants": "",
         "price": "12",
         "desc": "One piece of Multigrain paratha stuffed with choice of Aloo / mooli / gobhi / paneer / onion Served with dahi, makhan & achar",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ],
     "Egg Corner": [
@@ -353,7 +393,8 @@
         "variants": "",
         "price": "11",
         "desc": "Scrambled eggs cooked with spices, served with pav bread",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 42,
@@ -361,7 +402,8 @@
         "variants": "",
         "price": "12",
         "desc": "Boiled egg cooked in a onion-tomato curry, served with rice",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 43,
@@ -369,7 +411,8 @@
         "variants": "",
         "price": "11",
         "desc": "Scrambled eggs and Mashed potatoes, vegetable, served with butter pav bread",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ]
   },
@@ -381,7 +424,8 @@
         "variants": "",
         "price": "16",
         "desc": "Cottage cheese marinated with cashew sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 45,
@@ -389,7 +433,8 @@
         "variants": "",
         "price": "16",
         "desc": "Chicken pieces marinated in tandoori masala sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 46,
@@ -397,7 +442,8 @@
         "variants": "",
         "price": "16",
         "desc": "Cottage cheese marinated with pickle sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 47,
@@ -405,7 +451,8 @@
         "variants": "",
         "price": "16",
         "desc": "Chicken pieces marinated with cashew sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 48,
@@ -413,7 +460,8 @@
         "variants": "",
         "price": "16",
         "desc": "Mushroom marinated with coriander mint tandoori masala sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 49,
@@ -421,7 +469,8 @@
         "variants": "",
         "price": "16",
         "desc": "Minced chicken and herbs",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 50,
@@ -429,7 +478,8 @@
         "variants": "",
         "price": "16",
         "desc": "Half tandoori chicken marinated in tandoori masala sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 51,
@@ -437,7 +487,8 @@
         "variants": "",
         "price": "16",
         "desc": "Minced Lamb and herbs",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ]
   },
@@ -449,7 +500,8 @@
         "variants": "",
         "price": "12",
         "desc": "Aromatic Basmati Rice cooked with fragrant herbs",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 53,
@@ -457,7 +509,8 @@
         "variants": "",
         "price": "12",
         "desc": "Aromatic Basmati Rice cooked with fragrant herbs",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 54,
@@ -465,7 +518,8 @@
         "variants": "",
         "price": "12",
         "desc": "Aromatic Basmati Rice cooked with fragrant herbs",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 55,
@@ -473,7 +527,8 @@
         "variants": "",
         "price": "14",
         "desc": "Aromatic Basmati Rice cooked with fragrant herbs",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 56,
@@ -481,7 +536,8 @@
         "variants": "",
         "price": "16",
         "desc": "Aromatic Basmati Rice cooked with fragrant herbs",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 57,
@@ -489,7 +545,8 @@
         "variants": "",
         "price": "18",
         "desc": "Aromatic Basmati Rice cooked with fragrant herbs",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 58,
@@ -497,7 +554,8 @@
         "variants": "",
         "price": "20",
         "desc": "Aromatic Basmati Rice cooked with fragrant herbs",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ]
   },
@@ -509,7 +567,8 @@
         "variants": "",
         "price": "20",
         "desc": "Chicken Dish from champaran Bihar cooked in home style",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 60,
@@ -517,7 +576,8 @@
         "variants": "",
         "price": "20",
         "desc": "Baby goat cooked with onion-tomato and special chillies",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 61,
@@ -525,7 +585,8 @@
         "variants": "",
         "price": "20",
         "desc": "Half tandoori chicken cooked in Delhi speciality buttery tomato sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 62,
@@ -533,7 +594,8 @@
         "variants": "",
         "price": "14",
         "desc": "Ground fresh mustard leaves cooked with spices",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 63,
@@ -541,7 +603,8 @@
         "variants": "",
         "price": "20",
         "desc": "Half tandoori chicken finished with our chef’s special sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 64,
@@ -549,7 +612,8 @@
         "variants": "",
         "price": "14",
         "desc": "Yogurt based curry served with onion filters",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ]
   },
@@ -561,7 +625,8 @@
         "variants": "",
         "price": "14",
         "desc": "Cottage cheese cubes mixed with lababdar sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 66,
@@ -569,7 +634,8 @@
         "variants": "",
         "price": "14",
         "desc": "Cottage cheese cooked with spinach",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 67,
@@ -577,7 +643,8 @@
         "variants": "",
         "price": "14",
         "desc": "Cottage cheese triangles mixed with onions , peppers in onion sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 68,
@@ -585,7 +652,8 @@
         "variants": "",
         "price": "12",
         "desc": "Yellow lentils tempered with cumin seeds, ginger-garlic and onion",
-        "chefSpecial": false
+        "chefSpecial": true,
+        "image": "dal-tadka.jpg"
       },
       {
         "id": 69,
@@ -593,7 +661,8 @@
         "variants": "",
         "price": "14",
         "desc": "Cottage cheese with peas cooked in creamy onion tomato sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 70,
@@ -601,7 +670,8 @@
         "variants": "",
         "price": "12",
         "desc": "Mixed lentils tempered with cumin seeds, ginger-garlic and onion",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 71,
@@ -609,7 +679,8 @@
         "variants": "",
         "price": "14",
         "desc": "Shredded cottage cheese with spiced onions and tomato",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 72,
@@ -617,7 +688,8 @@
         "variants": "",
         "price": "14",
         "desc": "Black lentils and red kidney beans cooked overnight and finished with cream and butter",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 73,
@@ -625,7 +697,8 @@
         "variants": "",
         "price": "14",
         "desc": "Cottage Cheese cooked in creamy tomato sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 74,
@@ -633,7 +706,8 @@
         "variants": "",
         "price": "12",
         "desc": "Tangy chickpea in onion curry and spices",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 75,
@@ -641,7 +715,8 @@
         "variants": "",
         "price": "14",
         "desc": "Cottage Cheese cooked in creamy onion tomato sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 76,
@@ -649,7 +724,8 @@
         "variants": "",
         "price": "14",
         "desc": "Baby potato cooked with onion tomato and jaggery",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 77,
@@ -657,7 +733,8 @@
         "variants": "",
         "price": "14",
         "desc": "Cottage cheese croquettes cooked in creamy cashew nut sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 78,
@@ -665,7 +742,8 @@
         "variants": "",
         "price": "12",
         "desc": "Okra in onion tomato sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 79,
@@ -673,7 +751,8 @@
         "variants": "",
         "price": "14",
         "desc": "Cauliflower , carrot , potato and green peas cooked in creamy cashew nut sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 80,
@@ -681,7 +760,8 @@
         "variants": "",
         "price": "12",
         "desc": "Cauliflower and potato cooked with chopped onion tomato sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ],
     "Paultry": [
@@ -691,7 +771,8 @@
         "variants": "",
         "price": "16",
         "desc": "Chicken pieces, dice of onions and peppers in tangy onion sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 82,
@@ -699,7 +780,8 @@
         "variants": "",
         "price": "16",
         "desc": "Chicken with onion tomato and coconut sauce, mustard seeds and curry",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 83,
@@ -707,7 +789,8 @@
         "variants": "",
         "price": "16",
         "desc": "All time favorite delhi style boneless butter chicken cooked in creamy, butter tomato sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 84,
@@ -715,7 +798,8 @@
         "variants": "",
         "price": "16",
         "desc": "All time favorite london famous boneless chicken cooked with onion-tomato sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 85,
@@ -723,7 +807,8 @@
         "variants": "",
         "price": "16",
         "desc": "Chicken curry cooked in dhaba style in onion-tomato sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 86,
@@ -731,7 +816,8 @@
         "variants": "",
         "price": "16",
         "desc": "Chicken curry cooked in spinach and onion-tomato sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 87,
@@ -739,7 +825,8 @@
         "variants": "",
         "price": "16",
         "desc": "Chicken curry cooked with mustard seeds, curry leaves and black peppers",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ],
     "Goat Lamb": [
@@ -749,7 +836,8 @@
         "variants": "",
         "price": "20",
         "desc": "Baby Goat dices of onions and peppers in tangy onion sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 89,
@@ -757,7 +845,8 @@
         "variants": "",
         "price": "20",
         "desc": "Baby goat cooked with onion-tomato and special spices from Rajasthan",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 90,
@@ -765,7 +854,8 @@
         "variants": "",
         "price": "18",
         "desc": "Lamb cooked with onion-tomato and spinach",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 91,
@@ -773,7 +863,8 @@
         "variants": "",
         "price": "18",
         "desc": "Lamb cooked with onion-tomato sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 92,
@@ -781,7 +872,8 @@
         "variants": "",
         "price": "20",
         "desc": "Kashmiri famous dish , Lamb cooked with onion-tomato yogurt sauce and spices",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 93,
@@ -789,7 +881,8 @@
         "variants": "",
         "price": "18",
         "desc": "Goan famous dish , Lamb cooked with onion-tomato, vinegar and spices",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 94,
@@ -797,7 +890,8 @@
         "variants": "",
         "price": "18",
         "desc": "Lamb pieces, dices of onions and peppers in tangy onion sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 95,
@@ -805,7 +899,8 @@
         "variants": "",
         "price": "18",
         "desc": "Maharashtra famous dish , Lamb cooked with onion-tomato and Gathi spices",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ],
     "Sea Food": [
@@ -815,7 +910,8 @@
         "variants": "",
         "price": "18",
         "desc": "shrimp cooked with onion-tomato butter sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 97,
@@ -823,7 +919,8 @@
         "variants": "",
         "price": "18",
         "desc": "Shrimp cooked with buttery tomato sauce",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 98,
@@ -831,7 +928,8 @@
         "variants": "",
         "price": "18",
         "desc": "Shrimp , dices of onions and peppers in tangy onion sauce",
-        "chefSpecial": false
+        "chefSpecial": true,
+        "image": ""
       },
       {
         "id": 99,
@@ -839,7 +937,8 @@
         "variants": "",
         "price": "18",
         "desc": "Calcutta famous dish , shrimp cooked in onion tomato and coconut milk with mustard seeds and curry leaves",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ],
     "Rice": [
@@ -849,7 +948,8 @@
         "variants": "",
         "price": "12",
         "desc": "Steam basmati rice with green peas",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 101,
@@ -857,7 +957,8 @@
         "variants": "",
         "price": "6",
         "desc": "Steam basmati rice with cumin",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 102,
@@ -865,7 +966,8 @@
         "variants": "",
         "price": "6",
         "desc": "Aromatic indian basmati rice",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 103,
@@ -873,7 +975,8 @@
         "variants": "",
         "price": "3",
         "desc": "Steamed basmati rice with saffron",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ],
     "Sides": [
@@ -883,7 +986,8 @@
         "variants": "Roasted | Fried",
         "price": "3",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 105,
@@ -891,7 +995,8 @@
         "variants": "",
         "price": "5",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 106,
@@ -899,7 +1004,8 @@
         "variants": "",
         "price": "3",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 107,
@@ -907,7 +1013,8 @@
         "variants": "",
         "price": "4",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ],
     "Tandoor Se": [
@@ -917,7 +1024,8 @@
         "variants": "Plain | butter",
         "price": "2 | 2.5",
         "desc": "Whole wheat bread leavened in a clay oven",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 109,
@@ -925,7 +1033,8 @@
         "variants": "Plain | butter | Garlic",
         "price": "3 | 3.5 | 4.5",
         "desc": "Traditional indian flat bread",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 110,
@@ -933,7 +1042,8 @@
         "variants": "",
         "price": "5",
         "desc": "Tandoor baked cheese and pepper stuffed naan",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 111,
@@ -941,7 +1051,8 @@
         "variants": "",
         "price": "5",
         "desc": "Tandoor baked goat cheese stuffed naan",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 112,
@@ -949,7 +1060,8 @@
         "variants": "",
         "price": "4",
         "desc": "Stuffed naan with chopped onions and spices",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 113,
@@ -957,7 +1069,8 @@
         "variants": "",
         "price": "4",
         "desc": "Indian flatbread with ground mint leaves",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 114,
@@ -965,7 +1078,8 @@
         "variants": "",
         "price": "4",
         "desc": "Flaky whole wheat Indian bread with buttery layers",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 115,
@@ -973,7 +1087,8 @@
         "variants": "",
         "price": "4",
         "desc": "Traditional Indian flat bread with green chilli and garlic",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 116,
@@ -981,7 +1096,8 @@
         "variants": "",
         "price": "7",
         "desc": "Two deep fried puffy breads",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 117,
@@ -989,7 +1105,8 @@
         "variants": "",
         "price": "3",
         "desc": "Indian bread made with maize flour",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ]
   },
@@ -1001,7 +1118,8 @@
         "variants": "",
         "price": "20",
         "desc": "Friday and Saturday",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 119,
@@ -1009,7 +1127,8 @@
         "variants": "",
         "price": "20",
         "desc": "Sunday",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ]
   },
@@ -1021,7 +1140,8 @@
         "variants": "",
         "price": "6",
         "desc": "Mash lentils slow cooked in clarified butter",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 121,
@@ -1029,7 +1149,8 @@
         "variants": "",
         "price": "6",
         "desc": "Spongy khoa munchkin balls soaked in sweet rose syrup",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 122,
@@ -1037,7 +1158,8 @@
         "variants": "",
         "price": "6",
         "desc": "Semolina slow cooked in clarified butter",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 123,
@@ -1045,7 +1167,8 @@
         "variants": "",
         "price": "6",
         "desc": "Curdled milk balls in sweet milk",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 124,
@@ -1053,7 +1176,8 @@
         "variants": "",
         "price": "6",
         "desc": "Grated carrot slow cooked in milk",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 125,
@@ -1061,7 +1185,8 @@
         "variants": "",
         "price": "6",
         "desc": "Silky smooth strained yogurt flavoured with hint of saffron and cardamom",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 126,
@@ -1069,7 +1194,8 @@
         "variants": "",
         "price": "7",
         "desc": "Basil seeds , thickened milk and vermicelli Mango / Kesar bhadam",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 127,
@@ -1077,7 +1203,8 @@
         "variants": "",
         "price": "7",
         "desc": "Grounded Rice cooked in milk flavored with saffron",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ]
   },
@@ -1089,7 +1216,8 @@
         "variants": "",
         "price": "6",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 129,
@@ -1097,7 +1225,8 @@
         "variants": "",
         "price": "6",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 130,
@@ -1105,7 +1234,8 @@
         "variants": "",
         "price": "7",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 131,
@@ -1113,7 +1243,8 @@
         "variants": "",
         "price": "7",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ]
   },
@@ -1125,7 +1256,8 @@
         "variants": "4 PM | 5 PM | 6 PM",
         "price": "4 | 5 | 6",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 133,
@@ -1133,7 +1265,8 @@
         "variants": "4 PM | 5 PM | 6 PM",
         "price": "4 | 5 | 6",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 134,
@@ -1141,7 +1274,8 @@
         "variants": "",
         "price": "3",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 135,
@@ -1149,7 +1283,8 @@
         "variants": "Chicken/Paneer 65 | Peanut Masala | Tikka Masala Dip & Chips | Chicken/Paneer Tandoori Pizza",
         "price": "6",
         "desc": "",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ],
     "Sodas": [
@@ -1159,7 +1294,8 @@
         "variants": "",
         "price": "12",
         "desc": "Using fresh kale",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 137,
@@ -1167,7 +1303,8 @@
         "variants": "",
         "price": "13",
         "desc": "Using fresh strawberries",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 138,
@@ -1175,7 +1312,8 @@
         "variants": "",
         "price": "10",
         "desc": "Using fresh banana",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ],
     "Shakes": [
@@ -1185,7 +1323,8 @@
         "variants": "",
         "price": "12",
         "desc": "Chocolate mix fresh banana",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 140,
@@ -1193,7 +1332,8 @@
         "variants": "",
         "price": "13",
         "desc": "Chocolate mix fresh almond",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 141,
@@ -1201,7 +1341,8 @@
         "variants": "",
         "price": "10",
         "desc": "Spinach mix fresh Carrot",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 142,
@@ -1209,7 +1350,8 @@
         "variants": "",
         "price": "10",
         "desc": "Spinach mix fresh Carrot",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ],
     "Hot and Cold": [
@@ -1219,7 +1361,8 @@
         "variants": "",
         "price": "12",
         "desc": "Using Fresh lemon",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 144,
@@ -1227,7 +1370,8 @@
         "variants": "",
         "price": "13",
         "desc": "Using fresh spinach",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 145,
@@ -1235,7 +1379,8 @@
         "variants": "",
         "price": "10",
         "desc": "Using fresh Banana",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ],
     "Juices": [
@@ -1245,7 +1390,8 @@
         "variants": "",
         "price": "12",
         "desc": "Using Fresh lemon",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 147,
@@ -1253,7 +1399,8 @@
         "variants": "",
         "price": "13",
         "desc": "Using fresh spinach",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 148,
@@ -1261,7 +1408,8 @@
         "variants": "",
         "price": "10",
         "desc": "Using fresh Banana",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       },
       {
         "id": 149,
@@ -1269,7 +1417,8 @@
         "variants": "",
         "price": "10",
         "desc": "Using fresh Banana",
-        "chefSpecial": false
+        "chefSpecial": false,
+        "image": ""
       }
     ]
   }

@@ -48,6 +48,7 @@ a {
 .page-path-current-link {
   color: #5b5b5b !important;
 }
+
 /* MenuPageHeader global css */
 .Appetizers-bg {
   background-image: url(../public/assets/images/Appetizers-bg.jpg);
@@ -109,3 +110,4 @@ a {
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
+/* EOF MenuPageHeader global css */

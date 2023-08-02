@@ -8,12 +8,12 @@ const EB_Garamond_Font = EB_Garamond({
   weight: "400",
 });
 
-function MenuItem({ image, alt, name, price, desc, weight }) {
+function MenuItem({ image, alt, name, price, desc }) {
   return (
     <div className="MenuItem-container">
       <Image src={image} alt={alt} />
 
-      <MenuItemInfo name={name} price={price} desc={desc} weight={weight} />
+      <MenuItemInfo name={name} price={price} desc={desc} />
 
       <div className="MenuItem-chef-special-wrapper">
         <p className={EB_Garamond_Font.className}>Chef's Special</p>
