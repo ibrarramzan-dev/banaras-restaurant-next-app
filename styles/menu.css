@@ -1,9 +1,7 @@
-.Menu-container {
-  background: #fff9f9;
-}
 .Menu-heading-wrapper {
   padding: 0.69rem 0 0.25rem 0;
   text-align: center;
+  background: #fff9f9;
 }
 .Menu-nav-items-pills-container {
   display: flex;
@@ -11,6 +9,9 @@
   column-gap: 4.5rem;
   row-gap: 1.8rem;
   padding-left: 3.3rem;
+  background: #fff9f9;
+  padding-bottom: 2.4rem;
+  margin-bottom: -1.5rem;
 }
 .Menu-nav-items-pill {
   width: fit-content;
