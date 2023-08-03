@@ -1,3 +1,4 @@
+import Link from "next/link";
 import Image from "next/image";
 import { EB_Garamond } from "next/font/google";
 import cn from "classnames";
@@ -28,12 +29,20 @@ function Contacts() {
 
         <div className="Contacts-text-wrapper">
           <Image src={TelephoneIcon} alt="Telephone" width={22} />{" "}
-          <p>(703) 429-1994</p>
+          <p>
+            <Link href="tel:(703) 429-1994" title="Dial us">
+              (703) 429-1994
+            </Link>
+          </p>
         </div>
 
         <div className="Contacts-text-wrapper">
           <Image src={EmailIcon} alt="Email" width={22} />{" "}
-          <p>info@banarasxpress.com</p>
+          <p>
+            <Link href="mailto:info@banarasxpress.com" title="Email us">
+              info@banarasxpress.com
+            </Link>
+          </p>
         </div>
         <br />
 
@@ -44,8 +53,8 @@ function Contacts() {
           <span>🕓</span>
         </p>
         <div className="Contacts-text-open-timings-wrapper">
-          <p>Mon – Thu: 11:00 AM – 2:30 PM</p>
-          <p>Fri – Sun: 11:00 AM – 3:00 PM</p>
+          <p>Mon – Thu: 11:00 AM – 9:30 PM</p>
+          <p>Fri – Sun: 11:00 AM – 10:30 PM</p>
         </div>
       </div>
     </div>
