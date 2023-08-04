@@ -21,6 +21,10 @@ function Contacts() {
         <Image src={Dash} alt="Dash" />
       </div>
 
+      <p className="Contacts-book-seat-message">
+        Please contact us now to Book a seat. Get your seat early!
+      </p>
+
       <div className="Contacts-text-container">
         <div className="Contacts-text-wrapper">
           <Image src={LocationIcon} alt="Location" width={22} />{" "}
