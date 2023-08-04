@@ -38,17 +38,21 @@ function Menu() {
       </div>
 
       <div className="Menu-nav-items-pills-container">
-        {menuItems.map(({ id, name }) => (
-          <div
-            className={cn({
-              "Menu-nav-items-pill": true,
-              "Menu-nav-items-active-pill": name === currentMenu,
-            })}
-            onClick={() => onPillClick(name)}
-          >
-            {name}
-          </div>
-        ))}
+        {menuItems.map(({ id, name }) => {
+          if (name !== "Full Menu") {
+            return (
+              <div
+                className={cn({
+                  "Menu-nav-items-pill": true,
+                  "Menu-nav-items-active-pill": name === currentMenu,
+                })}
+                onClick={() => onPillClick(name)}
+              >
+                {name}
+              </div>
+            );
+          }
+        })}
       </div>
 
       <br />
