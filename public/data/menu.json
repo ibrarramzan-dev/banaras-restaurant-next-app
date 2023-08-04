@@ -7,7 +7,7 @@
         "variants": "Chicken Tikka | Paneer Tikka | Soya",
         "price": "10 | 10 | 10",
         "desc": "Nacho chips topped with tomato, cheese, beans, sour cream and Indian sauce",
-        "chefSpecial": true,
+        "chefSpecial": false,
         "image": ""
       }
     ],
@@ -170,7 +170,7 @@
         "variants": "",
         "price": "8",
         "desc": "Grilled chicken breast topped with our house-made tandoori sauce, lettuce, sour cream, fresh onions and tomato",
-        "chefSpecial": true,
+        "chefSpecial": false,
         "image": ""
       },
       {
@@ -313,7 +313,7 @@
         "variants": "Veg | Egg | Chicken | Shrimp",
         "price": "10 | 12 | 12 | 14",
         "desc": "Rice stir-fried with vegetables, garlic, ginger, chillies , soy sauce & spices",
-        "chefSpecial": true,
+        "chefSpecial": false,
         "image": ""
       },
       {
@@ -322,7 +322,7 @@
         "variants": "",
         "price": "12 | 14",
         "desc": "Sauteed with minced garlic , onion & schezwan sauce , served with rice",
-        "chefSpecial": true,
+        "chefSpecial": false,
         "image": ""
       },
       {
@@ -567,7 +567,7 @@
         "variants": "",
         "price": "20",
         "desc": "Chicken Dish from champaran Bihar cooked in home style",
-        "chefSpecial": false,
+        "chefSpecial": true,
         "image": ""
       },
       {
@@ -576,7 +576,7 @@
         "variants": "",
         "price": "20",
         "desc": "Baby goat cooked with onion-tomato and special chillies",
-        "chefSpecial": false,
+        "chefSpecial": true,
         "image": ""
       },
       {
@@ -585,7 +585,7 @@
         "variants": "",
         "price": "20",
         "desc": "Half tandoori chicken cooked in Delhi speciality buttery tomato sauce",
-        "chefSpecial": false,
+        "chefSpecial": true,
         "image": ""
       },
       {
@@ -594,7 +594,7 @@
         "variants": "",
         "price": "14",
         "desc": "Ground fresh mustard leaves cooked with spices",
-        "chefSpecial": false,
+        "chefSpecial": true,
         "image": ""
       },
       {
@@ -603,7 +603,7 @@
         "variants": "",
         "price": "20",
         "desc": "Half tandoori chicken finished with our chef’s special sauce",
-        "chefSpecial": false,
+        "chefSpecial": true,
         "image": ""
       },
       {
@@ -612,7 +612,7 @@
         "variants": "",
         "price": "14",
         "desc": "Yogurt based curry served with onion filters",
-        "chefSpecial": false,
+        "chefSpecial": true,
         "image": ""
       }
     ]
@@ -652,7 +652,7 @@
         "variants": "",
         "price": "12",
         "desc": "Yellow lentils tempered with cumin seeds, ginger-garlic and onion",
-        "chefSpecial": true,
+        "chefSpecial": false,
         "image": "dal-tadka.jpg"
       },
       {
@@ -928,7 +928,7 @@
         "variants": "",
         "price": "18",
         "desc": "Shrimp , dices of onions and peppers in tangy onion sauce",
-        "chefSpecial": true,
+        "chefSpecial": false,
         "image": ""
       },
       {

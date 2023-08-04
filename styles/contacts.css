@@ -38,6 +38,9 @@
 .Contacts-text-open-timings-wrapper {
   margin-top: 1rem;
 }
+.Contacts-text-open-timings-wrapper hr {
+  width: 20%;
+}
 
 @media (max-width: 874px) {
   .Contacts-container {

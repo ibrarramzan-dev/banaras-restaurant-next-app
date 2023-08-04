@@ -7,6 +7,8 @@ import TelephoneIcon from "@/public/assets/images/telephone-grey.png";
 import EmailIcon from "@/public/assets/images/email-grey.png";
 import Dash from "@/public/assets/images/dash.png";
 import "@/styles/contacts.css";
+import LunchHours from "@/components/LunchHours";
+import DinnerHours from "@/components/DinnerHours";
 
 const EB_Garamond_Font = EB_Garamond({
   subsets: ["latin"],
@@ -53,12 +55,20 @@ function Contacts() {
         <p className="Contacts-text-we-are-open">
           <u>
             We are <b>open:</b>
-          </u>{" "}
+          </u>
           <span>🕓</span>
         </p>
         <div className="Contacts-text-open-timings-wrapper">
-          <p>Mon – Thu: 11:00 AM – 9:30 PM</p>
-          <p>Fri – Sun: 11:00 AM – 10:30 PM</p>
+          <p>Lunch Hours</p>
+          <hr />
+
+          <LunchHours />
+
+          <br />
+          <p>Dinner Hours</p>
+          <hr />
+
+          <DinnerHours />
         </div>
       </div>
     </div>

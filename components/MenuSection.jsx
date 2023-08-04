@@ -47,22 +47,22 @@ function MenuSection() {
         {chefSpecialMenu.map((menuItem) => {
           let img;
           switch (menuItem.id) {
-            case 1:
+            case 59:
               img = chefSpecialImg1;
               break;
-            case 18:
+            case 60:
               img = chefSpecialImg2;
               break;
-            case 33:
+            case 61:
               img = chefSpecialImg3;
               break;
-            case 34:
+            case 62:
               img = chefSpecialImg4;
               break;
-            case 68:
+            case 63:
               img = chefSpecialImg5;
               break;
-            case 98:
+            case 64:
               img = chefSpecialImg6;
               break;
 
