@@ -8,7 +8,7 @@ import Logo from "@/public/assets/images/banaras-logo.png";
 import LunchHours from "./LunchHours";
 import DinnerHours from "./DinnerHours";
 import FooterBottomBar from "./FooterBottomBar";
-import MenuNavItems from "./MenuNavItems";
+import MenuDropdown from "./MenuDropdown";
 import "@/styles/Footer.css";
 
 const EB_Garamond_Font = EB_Garamond({
@@ -39,25 +39,7 @@ function Footer() {
             </Link>
 
             <li className="Footer-nav-item">
-              <div className="Footer-nav-item-dropdown">
-                <span className="Footer-nav-item-dropdown-btn">
-                  <Link href="/menu">
-                    MENU{" "}
-                    <span
-                      style={{
-                        fontSize: "0.72rem",
-                        height: "0.1rem",
-                      }}
-                    >
-                      ^
-                    </span>
-                  </Link>
-                </span>
-
-                <div className="Footer-nav-item-dropdown-content">
-                  <MenuNavItems />
-                </div>
-              </div>
+              <MenuDropdown arrow="^" />
             </li>
 
             <Link href="/contacts">

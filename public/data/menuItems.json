@@ -1,61 +1,66 @@
 [
   {
     "id": 1,
+    "path": "",
+    "name": "All Menu"
+  },
+  {
+    "id": 2,
     "path": "indian-fusion",
     "name": "Indian Fusion"
   },
   {
-    "id": 2,
+    "id": 3,
     "path": "chatora-junction",
     "name": "Chatora Junction"
   },
   {
-    "id": 3,
+    "id": 4,
     "path": "indo-chinese",
     "name": "Indo-Chinese"
   },
   {
-    "id": 4,
+    "id": 5,
     "path": "appetizers",
     "name": "Appetizers"
   },
   {
-    "id": 5,
+    "id": 6,
     "path": "tandoori-love",
     "name": "Tandoori Love"
   },
   {
-    "id": 6,
+    "id": 7,
     "path": "biryani",
     "name": "Biryani"
   },
   {
-    "id": 7,
+    "id": 8,
     "path": "house-specials",
     "name": "House Special's"
   },
   {
-    "id": 8,
+    "id": 9,
     "path": "food",
     "name": "Food"
   },
   {
-    "id": 9,
+    "id": 10,
     "path": "weekly-specials",
     "name": "Weekly Special's"
   },
   {
-    "id": 10,
+    "id": 11,
     "path": "dessert-specials",
     "name": "Dessert Special's"
   },
   {
-    "id": 11,
+    "id": 12,
     "path": "kid-elicious",
     "name": "KiD'elicious"
   },
   {
-    "id": 12,
+    "id": 13,
     "path": "drinks",
     "name": "Drinks"
   }

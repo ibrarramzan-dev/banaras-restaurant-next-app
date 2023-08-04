@@ -3,7 +3,7 @@ import Link from "next/link";
 import { EB_Garamond } from "next/font/google";
 import Logo from "@/public/assets/images/banaras-logo.png";
 import TopBar from "./TopBar";
-import MenuNavItems from "./MenuNavItems";
+import MenuDropdown from "./MenuDropdown";
 import "@/styles/Header.css";
 
 const EB_Garamond_Font = EB_Garamond({
@@ -33,23 +33,7 @@ function Header() {
             </Link>
 
             <li className="Header-nav-item">
-              <div className="avatar-dropdown">
-                <span
-                  className="avatar-dropdown-btn"
-                  style={{ fontWeight: "bold" }}
-                >
-                  <Link href="/menu">
-                    MENU{" "}
-                    <span style={{ fontSize: "0.72rem", height: "0.1rem" }}>
-                      ˅
-                    </span>
-                  </Link>
-                </span>
-
-                <div className="avatar-dropdown-content">
-                  <MenuNavItems />
-                </div>
-              </div>
+              <MenuDropdown arrow="˅" />
             </li>
 
             <Link href="/contacts">
