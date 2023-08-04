@@ -14,16 +14,16 @@ function Standards() {
 
       <div className="Standards-content-wrapper">
         <StandardBox
-          heading="Casually European"
-          content="With our menu being centered around the casual European dishes, we have both Greek, French and Italian food..."
+          heading="Casually Indian"
+          content="With our menu being centered around the traditional Indian dishes, we have fine fusion of Indian, American and Mexican food..."
         />
         <StandardBox
           heading="American Comfort"
-          content="Despite being a European restaurant, visiting our place feels just as casual as any traditional American restaurant would feel..."
+          content="Despite being a Indian Multi-Cuisine restaurant, visiting our place feels just as casual as any traditional American restaurant would feel..."
         />
         <StandardBox
           heading="Event-friendly"
-          content="If you're considering celebrating a personal or a business occasion at our restaurant, all of our 3 big dining halls will be ready for you!"
+          content="If you're considering celebrating a personal or a business occasion at our restaurant, our big Party and Dinner halls will be ready for you to make your special day memorable!"
         />
       </div>
     </section>
