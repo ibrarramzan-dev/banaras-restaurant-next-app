@@ -764,7 +764,7 @@
         "image": ""
       }
     ],
-    "Paultry": [
+    "Poultry": [
       {
         "id": 81,
         "name": "Tawa murg",
@@ -1032,7 +1032,7 @@
         "name": "Naan",
         "variants": "Plain | butter | Garlic",
         "price": "3 | 3.5 | 4.5",
-        "desc": "Traditional indian flat bread",
+        "desc": "Traditional indian pizza",
         "chefSpecial": false,
         "image": ""
       },
@@ -1086,7 +1086,7 @@
         "name": "Bullet naan",
         "variants": "",
         "price": "4",
-        "desc": "Traditional Indian flat bread with green chilli and garlic",
+        "desc": "Traditional Indian pizza with green chilli and garlic",
         "chefSpecial": false,
         "image": ""
       },
@@ -1101,7 +1101,7 @@
       },
       {
         "id": 117,
-        "name": "Makkhi roti",
+        "name": "Makki roti",
         "variants": "",
         "price": "3",
         "desc": "Indian bread made with maize flour",

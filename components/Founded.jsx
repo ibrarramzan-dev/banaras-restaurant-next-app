@@ -15,8 +15,8 @@ function Founded() {
       </p>
       <div className="Founded-text-wrapper">
         <p className={cn(EB_Garamond_Font.className, "Founded-text")}>
-          Banaras is very proud to set to serve fine Indian dishes for many
-          years to come!
+          Banaras Xpress is very proud to set to serve fine Indian dishes for
+          many years to come!
         </p>
       </div>
     </section>
