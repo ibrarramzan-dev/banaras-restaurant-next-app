@@ -5,6 +5,7 @@
   background: #fff;
   padding-top: 4rem;
   padding-bottom: 4rem;
+  margin-bottom: -2.6rem;
 }
 @keyframes Section-item-desc-anim {
   from {
@@ -76,7 +77,7 @@
 @media (max-width: 874px) {
   .Section-container {
     flex-direction: column;
-    margin-bottom: -8rem;
+    margin-bottom: -7rem;
   }
   .Section-item-wrapper {
     width: 100%;
