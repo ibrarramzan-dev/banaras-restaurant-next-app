@@ -68,10 +68,15 @@
   animation-duration: 1.4s;
 }
 
+@media (min-width: 325px) and (max-width: 734px) {
+  .Banner-container {
+    padding-left: 1rem;
+  }
+}
+
 @media (max-width: 874px) {
   .Banner-container {
     height: 40rem;
-    padding-left: 2rem;
   }
 }
 

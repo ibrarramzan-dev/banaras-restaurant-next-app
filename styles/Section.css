@@ -76,6 +76,7 @@
 @media (max-width: 874px) {
   .Section-container {
     flex-direction: column;
+    margin-bottom: -8rem;
   }
   .Section-item-wrapper {
     width: 100%;

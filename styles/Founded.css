@@ -30,6 +30,12 @@
   }
 }
 
+@media (max-width: 874px) {
+  .Founded-heading {
+    padding-top: 5rem;
+  }
+}
+
 @media (min-width: 1351px) and (max-width: 1850px) {
   .Founded-container {
     height: 47rem;
