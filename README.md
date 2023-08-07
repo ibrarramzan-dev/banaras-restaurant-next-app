@@ -1,6 +1,11 @@
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
+
+First, Deply the Node.js on the machine
+
+Second, run **nmp i**, this will create mode modules 
 
 First, run the development server:
 
